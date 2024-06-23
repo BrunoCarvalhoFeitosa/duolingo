@@ -1,0 +1,202 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
+  html,
+  body,
+  :root {
+    @apply h-full;
+  }
+
+  @keyframes animate-bounce-duolingo-small {
+    0%, 100% {
+      transform: translateY(18px);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0px);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @keyframes animate-bounce-duolingo-medium {
+    0%, 100% {
+      transform: translateY(-60px);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0px);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @keyframes animate-bounce-duolingo-large {
+    0%, 100% {
+      transform: translateY(-120px);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0px);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  @keyframes animate-sun-hero {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes animate-clouds-hero {
+    50% {
+      -webkit-transform: translateX(70px);
+      transform: translateX(70px);
+    }
+  }
+
+  @keyframes animate-swim-fish-hero {
+    0% {
+      transform: translateX(-235px)
+    }
+    90% {
+      transform: translateX(100%)
+    }
+    100% {
+      transform: translateX(100%)
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .animate-bounce-duolingo-footer {
+      animation: animate-bounce-duolingo-small 1.5s infinite;
+      -webkit-animation: animate-bounce-duolingo-small 1.5s infinite;
+    }
+  }
+
+  @media only screen and (min-width: 641px) and (max-width: 1023px) {
+    .animate-bounce-duolingo-footer {
+      animation: animate-bounce-duolingo-medium 1.5s infinite;
+      -webkit-animation: animate-bounce-duolingo-medium 1.5s infinite;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .animate-bounce-duolingo-footer {
+      animation: animate-bounce-duolingo-large 1.5s infinite;
+      -webkit-animation: animate-bounce-duolingo-large 1.5s infinite;
+    }
+  }
+
+  .animate-sun-hero {
+    animation: animate-sun-hero 6s normal linear infinite;
+    -webkit-animation: animate-sun-hero 6s normal linear infinite;
+  }
+
+  .animate-clouds-hero {
+    animation: animate-clouds-hero 5s normal linear infinite;
+    -webkit-animation: animate-clouds-hero 5s normal linear infinite;
+  }
+
+  .animate-bounce-doulingo-hero {
+    animation: animate-bounce-duolingo-small 3.5s infinite;
+    -webkit-animation: animate-bounce-duolingo-small 3.5s infinite;
+  }
+
+  .animate-dark-alga {
+    animation: animate-bounce-duolingo-small 3.5s infinite;
+    -webkit-animation: animate-bounce-duolingo-small 3.5s infinite;
+  }
+
+  .animate-light-alga {
+    animation: animate-bounce-duolingo-small 4.5s infinite;
+    -webkit-animation: animate-bounce-duolingo-small 4.5s infinite;
+  }
+
+  .animate-swim-fish-hero {
+    animation: animate-swim-fish-hero 12s linear infinite;
+    -webkit-animation: animate-swim-fish-hero 12s linear infinite;
+  }
+
+  .animate-bounce-bubble-hero {
+    animation: animate-bounce-duolingo-small 3.5s infinite;
+    -webkit-animation: animate-bounce-duolingo-small 3.5s infinite;
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }

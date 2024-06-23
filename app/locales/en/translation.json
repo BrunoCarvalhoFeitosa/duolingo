@@ -1,0 +1,127 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "Learn a language for free.",
+            "subtitle": "Forever. From anywhere.",
+            "description": "Immerse yourself in a sea of ​​deep knowledge. Learn new languages ​​for free and in a fun and effective way, our materials are produced by artificial intelligence and reviewed by highly qualified teachers.",
+            "registerButton": "Start learning",
+            "loginButton": "I already have an account"
+        },
+        "freeUseSection": {
+            "title": "Free. Funny. Effective",
+            "description": "For free and with quality content, the effectiveness of learning with Duolingo is high, as we use artificial intelligence nested with the knowledge of teachers to generate the tasks."
+        },
+        "boredSection": {
+            "title": "Nothing boring. Nothing tiring",
+            "description": "Learning with Duolingo is fun, and research proves that it really works! With quick, short lessons, you earn points and unlock new levels while learning how to communicate in real life."
+        },
+        "advanceStepsSection": {
+            "title": "Study. Learn it. Advance",
+            "description": "Complete daily tasks and constantly advance your learning. New fun and challenging tasks are sent every day for each language you are interested in learning."
+        },
+        "tiredSection": {
+            "title": "Tired out. Frustrated. Sad",
+            "description": "Tired of practicing a language for many years and not getting any results? Your time to learn has arrived with Duolingo, the best institutional language teaching website/app, with proven studies and results."
+        },
+        "trainingSection": {
+            "title": "Exercise. Train. Practice",
+            "description": "Do the daily exercises, train outside the website and the app constantly and understand that to improve your level in a given language, you must practice every day, from consistency you will learn and you will never forget."
+        },
+        "winnerSection": {
+            "title": "Study. Persist. Conquer",
+            "description": "Study as much as you can, set small daily goals and persist in a healthy study routine, this way you will go far and master and conquer the languages ​​you want. Just by trying you are already a champion."
+        }
+    },
+    "authPage": {
+        "title": "Learn a language for free.",
+        "description": "Log in to your account and start your learning journey.",
+        "otpVerification": {
+            "title": "Verify e-mail code",
+            "input": "Code",
+            "button": "Continue"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "Name",
+            "inputLastName": "Surname",
+            "inputUsername": "Username",
+            "inputEmail": "E-mail",
+            "inputPassword": "Password",
+            "submit": "Create my account and start learning",
+            "signInText": "Login to account",
+            "continueRegistrationText": "Continue registration"
+        },
+        "platforms": {
+            "title": "Alternatively, log in to these platforms",
+            "button": "Sign in with Google",
+            "haveAccount": "Already have an account?"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "E-mail",
+            "submit": "Log in to your account and learn a language",
+            "signUpText": "Sign-up"
+        },
+        "platforms": {
+            "title": "Alternatively, log in to these platforms",
+            "googleButton": "Sign in with Google",
+            "microsoftButton": "Sign in with Microsoft",
+            "haveNotAccount": "Don't have an account?"
+        }
+    },
+    "footer": {
+        "title": "Learn a language with Duolingo",
+        "button": "Start now",
+        "columns": {
+            "institutional": {
+                "title": "Institutional",
+                "store": "Store",
+                "press": "Press",
+                "whoWeAre": "Who we are",
+                "investors": "Investors",
+                "guide": "Brand guide",
+                "efficacy": "Efficacy"
+            },
+            "products": {
+                "title": "Products",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "support": {
+                "title": "Help and support",
+                "help": "Help",
+                "contact": "Contact",
+                "communityRules": "Community Rules",
+                "terms": "Terms of use",
+                "privacy": "Privacity",
+                "status": "Status"
+            },
+            "social": {
+                "title": "Social medias",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "download": {
+                "title": "Download",
+                "android": {
+                    "available": "Available on",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "Avaibable at",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

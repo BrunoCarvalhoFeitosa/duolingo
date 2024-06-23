@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "免費學習語言。",
+            "subtitle": "永遠。來自任何地方。",
+            "description": "讓自己沉浸在深厚的知識海洋中。我們的材料由人工智慧製作並由高素質教師審核，以有趣且有效的方式免費學習新語言。",
+            "registerButton": "開始學習",
+            "loginButton": "我已經有一個帳戶"
+        },
+        "freeUseSection": {
+            "title": "自由的。有趣的。有效的",
+            "description": "對於免費且高品質的內容，Duolingo 的學習效果非常高，因為我們使用人工智慧嵌套教師的知識來產生任務。"
+        },
+        "boredSection": {
+            "title": "沒什麼無聊的。沒什麼累的",
+            "description": "使用 Duolingo 學習很有趣，研究證明它確實有效！透過快速、簡短的課程，您可以賺取積分並解鎖新級別，同時學習如何在現實生活中進行溝通。"
+        },
+        "advanceStepsSection": {
+            "title": "學習。學習它。進步",
+            "description": "完成日常任務並持續推廣你的學習。每天都會針對您有興趣學習的每種語言發送新的有趣且具有挑戰性的任務。"
+        },
+        "tiredSection": {
+            "title": "筋疲力盡。沮喪的。傷心",
+            "description": "厭倦了練習語言多年卻沒有任何成果嗎？ Duolingo 是最好的機構語言教學網站/應用程序，具有經過驗證的研究和結果，您的學習時間已經到來。"
+        },
+        "trainingSection": {
+            "title": "鍛煉。火車。實踐",
+            "description": "進行日常練習，不斷在網站和應用程式之外進行訓練，並了解要提高特定語言的水平，您必須每天練習，從一致性中您將學到並且永遠不會忘記。"
+        },
+        "winnerSection": {
+            "title": "學習。堅持。征服",
+            "description": "盡可能多學習，設定每日小目標並堅持健康的學習習慣，這樣你就會走得更遠，掌握並征服你想要的語言。只要努力，你就已經是冠軍了。"
+        }
+    },
+    "authPage": {
+        "title": "免費學習語言。",
+        "description": "登入您的帳戶並開始您的學習之旅。",
+        "otpVerification": {
+            "title": "檢查電子郵件代碼",
+            "input": "程式碼",
+            "button": "繼續"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "姓名",
+            "inputLastName": "姓",
+            "inputUsername": "使用者名稱",
+            "inputEmail": "電子郵件",
+            "inputPassword": "森哈",
+            "submit": "克里阿尔·明哈·孔塔·阿戈拉",
+            "signInText": "孔塔内"
+        },
+        "platforms": {
+            "title": "可以选择 faça 登录 nessas 平台",
+            "button": "进入 Google",
+            "haveAccount": "特姆玛康塔"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "電子郵件",
+            "submit": "登入您的帳戶並學習語言",
+            "signUpText": "登記"
+        },
+        "platforms": {
+            "title": "或者，登入這些平台",
+            "googleButton": "進入 Google",
+            "microsoftButton": "進入微軟",
+            "haveNotAccount": "沒有帳戶？"
+        }
+    },
+    "footer": {
+        "title": "透過 Duolingo 學習語言",
+        "button": "現在開始",
+        "columns": {
+            "institutional": {
+                "title": "制度性",
+                "store": "店鋪",
+                "press": "按",
+                "whoWeAre": "我們是誰",
+                "investors": "投資者",
+                "guide": "品牌指南",
+                "efficacy": "效率"
+            },
+            "products": {
+                "title": "產品",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "social": {
+                "title": "社群媒體",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "support": {
+                "title": "幫助和支持",
+                "help": "幫助",
+                "contact": "接觸",
+                "communityRules": "社群規則",
+                "terms": "使用條款",
+                "privacy": "隱私",
+                "status": "地位"
+            },
+            "download": {
+                "title": "下載",
+                "android": {
+                    "available": "可用於",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "可用於",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

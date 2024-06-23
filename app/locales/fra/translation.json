@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "Apprenez une langue gratuitement.",
+            "subtitle": "Pour toujours. De partout.",
+            "description": "Plongez-vous dans un océan de connaissances approfondies. Apprenez de nouvelles langues gratuitement et de manière amusante et efficace, nos supports sont produits par intelligence artificielle et révisés par des professeurs hautement qualifiés.",
+            "registerButton": "Commencer à apprendre",
+            "loginButton": "Je ai déjà un compte"
+        },
+        "freeUseSection": {
+            "title": "Gratuit. Drôle. Efficace",
+            "description": "Gratuitement et avec un contenu de qualité, l'efficacité de l'apprentissage avec Duolingo est élevée, car nous utilisons l'intelligence artificielle imbriquée dans les connaissances des enseignants pour générer les tâches."
+        },
+        "boredSection": {
+            "title": "Rien d'ennuyeux. Rien de fatiguant",
+            "description": "Apprendre avec Duolingo est amusant, et les recherches prouvent que cela fonctionne vraiment ! Avec des leçons rapides et courtes, vous gagnez des points et débloquez de nouveaux niveaux tout en apprenant à communiquer dans la vraie vie."
+        },
+        "advanceStepsSection": {
+            "title": "Étude. Apprend le. Avance",
+            "description": "Accomplissez les tâches quotidiennes et progressez constamment dans votre apprentissage. De nouvelles tâches amusantes et stimulantes sont envoyées chaque jour pour chaque langue que vous souhaitez apprendre."
+        },
+        "tiredSection": {
+            "title": "Fatigué. Frustré. Triste",
+            "description": "Fatigué de pratiquer une langue pendant de nombreuses années sans obtenir de résultats ? Votre heure d'apprentissage est arrivée avec Duolingo, le meilleur site/application institutionnelle d'enseignement des langues, avec des études et des résultats prouvés."
+        },
+        "trainingSection": {
+            "title": "Exercice. Former. Pratique",
+            "description": "Faites les exercices quotidiens, entraînez-vous constamment en dehors du site et de l'application et comprenez que pour améliorer votre niveau dans une langue donnée, vous devez pratiquer tous les jours, par cohérence vous apprendrez et vous n'oublierez jamais."
+        },
+        "winnerSection": {
+            "title": "Étude. Persister. Conquérir",
+            "description": "Étudiez autant que vous le pouvez, fixez-vous de petits objectifs quotidiens et persistez dans une routine d'étude saine, de cette façon vous irez loin et maîtriserez et conquérirez les langues que vous voulez. Rien qu’en essayant, vous êtes déjà un champion."
+        }
+    },
+    "authPage": {
+        "title": "Apprenez une langue gratuitement.",
+        "description": "Connectez-vous à votre compte et commencez votre parcours d'apprentissage.",
+        "otpVerification": {
+            "title": "Vérifier le code e-mail",
+            "input": "Code",
+            "button": "Continuer"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "Nom",
+            "inputLastName": "Nom de famille",
+            "inputUsername": "Nom d'utilisateur",
+            "inputEmail": "E-mail",
+            "inputPassword": "Mot de passe",
+            "submit": "Créer mon compte et commencer à apprendre",
+            "signInText": "Connectez-vous au compte"
+        },
+        "platforms": {
+            "title": "Vous pouvez également vous connecter à ces plateformes",
+            "button": "Connectez-vous avec Google",
+            "haveAccount": "Vous avez déjà un compte?"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "E-mail",
+            "submit": "Connectez-vous à votre compte et apprenez une langue",
+            "signUpText": "Registre"
+        },
+        "platforms": {
+            "title": "Vous pouvez également vous connecter à ces plateformes",
+            "googleButton": "Entre avec Google",
+            "microsoftButton": "Entre avec Microsoft",
+            "haveNotAccount": "Vous n'avez pas de compte?"
+        }
+    },
+    "footer": {
+        "title": "Apprendre une langue avec Duolingo",
+        "button": "Commencez maintenant",
+        "columns": {
+            "institutional": {
+                "title": "Institutionnel",
+                "store": "Magasin",
+                "press": "Presse",
+                "whoWeAre": "Qui nous sommes",
+                "investors": "Investisseurs",
+                "guide": "Guide de la marque",
+                "efficacy": "Efficacité"
+            },
+            "products": {
+                "title": "Des produits",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "social": {
+                "title": "Redes sociais",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "support": {
+                "title": "Aide et soutien",
+                "help": "Aide",
+                "contact": "Conact",
+                "communityRules": "Règles de la communauté",
+                "terms": "Conditions d'utilisation",
+                "privacy": "Confidentialité",
+                "status": "Status"
+            },
+            "download": {
+                "title": "Télécharger",
+                "android": {
+                    "available": "Disponible sur",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "Disponible à",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "Aprende un idioma gratis.",
+            "subtitle": "Para siempre. De donde sea.",
+            "description": "Sumérgete en un mar de conocimiento profundo. Aprende nuevos idiomas gratis y de forma divertida y efectiva, nuestros materiales son producidos por inteligencia artificial y revisados ​​por profesores altamente calificados.",
+            "registerButton": "Comienza a aprender",
+            "loginButton": "Ya tengo una cuenta"
+        },
+        "freeUseSection": {
+            "title": "Gratis. Divertido. Eficaz",
+            "description": "De forma gratuita y con contenido de calidad, la efectividad del aprendizaje con Duolingo es alta, ya que utilizamos inteligencia artificial anidada en el conocimiento de los profesores para generar las tareas."
+        },
+        "boredSection": {
+            "title": "Nada aburrido. Nada agotador",
+            "description": "¡Aprender con Duolingo es divertido y las investigaciones demuestran que realmente funciona! Con lecciones breves y rápidas, ganas puntos y desbloqueas nuevos niveles mientras aprendes a comunicarte en la vida real."
+        },
+        "advanceStepsSection": {
+            "title": "Estudiar. Aprenderlo. Avance",
+            "description": "Completa tareas diarias y avanza constantemente en tu aprendizaje. Todos los días se envían nuevas tareas divertidas y desafiantes para cada idioma que esté interesado en aprender."
+        },
+        "tiredSection": {
+            "title": "Cansado. Frustrado. Triste",
+            "description": "¿Estás cansado de practicar un idioma durante muchos años y no obtener ningún resultado? Tu momento de aprender ha llegado con Duolingo, la mejor web/app institucional de enseñanza de idiomas, con estudios y resultados comprobados."
+        },
+        "trainingSection": {
+            "title": "Ejercicio. Tren. Práctica",
+            "description": "Haz los ejercicios diarios, entrena fuera del sitio web y de la app constantemente y entiende que para mejorar tu nivel en un determinado idioma debes practicar todos los días, desde la constancia aprenderás y nunca lo olvidarás."
+        },
+        "winnerSection": {
+            "title": "Estudiar. Persistir. Conquistar",
+            "description": "Estudia todo lo que puedas, establece pequeñas metas diarias y persiste en una rutina de estudio saludable, de esta manera llegarás lejos y dominarás y conquistarás los idiomas que desees. Con sólo intentarlo ya eres un campeón."
+        }
+    },
+    "authPage": {
+        "title": "Aprende un idioma gratis.",
+        "description": "Inicie sesión en su cuenta y comience su viaje de aprendizaje.",
+        "otpVerification": {
+            "title": "Comprobar el código de correo electrónico",
+            "input": "Código",
+            "button": "Continuar"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "Nombre",
+            "inputLastName": "Apellido",
+            "inputUsername": "Nombre de usuario",
+            "inputEmail": "Correo electrónico",
+            "inputPassword": "Contraseña",
+            "submit": "Crear mi cuenta y empezar a aprender",
+            "signInText": "Iniciar sesión en la cuenta"
+        },
+        "platforms": {
+            "title": "Alternativamente, inicie sesión en estas plataformas.",
+            "button": "Inicia sesión con Google",
+            "haveAccount": "¿Ya tienes una cuenta?"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "Correo electrónico",
+            "submit": "Inicia sesión en tu cuenta y aprende un idioma",
+            "signUpText": "Registro"
+        },
+        "platforms": {
+            "title": "Alternativamente, inicie sesión en estas plataformas.",
+            "googleButton": "Entre com Google",
+            "microsoftButton": "Entre com Microsoft",
+            "haveNotAccount": "¿No tienes una cuenta?"
+        }
+    },
+    "footer": {
+        "title": "Aprende un idioma con Duolingo",
+        "button": "Empezar ahora",
+        "columns": {
+            "institutional": {
+                "title": "Institucional",
+                "store": "Almacenar",
+                "press": "Prensa",
+                "whoWeAre": "Quienes somos",
+                "investors": "Inversores",
+                "guide": "Guía de marca",
+                "efficacy": "Eficiencia"
+            },
+            "products": {
+                "title": "Productos",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "support": {
+                "title": "Ayuda y apoyo",
+                "help": "Ayuda",
+                "contact": "Contacto",
+                "communityRules": "Reglas de la comunidad",
+                "terms": "Terms of use",
+                "privacy": "Condiciones de uso",
+                "status": "Status"
+            },
+            "social": {
+                "title": "Redes sociales",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "download": {
+                "title": "Descargar",
+                "android": {
+                    "available": "Disponible en",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "Disponible en",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

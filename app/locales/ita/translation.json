@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "Impara una lingua gratuitamente.",
+            "subtitle": "Per sempre. Da qualsiasi luogo.",
+            "description": "Immergiti in un mare di profonda conoscenza. Impara nuove lingue gratuitamente e in modo divertente ed efficace, i nostri materiali sono prodotti dall'intelligenza artificiale e revisionati da insegnanti altamente qualificati.",
+            "registerButton": "Inizia ad imparare",
+            "loginButton": "Ho già un account"
+        },
+        "freeUseSection": {
+            "title": "Gratuito. Divertente. Efficace",
+            "description": "Gratuitamente e con contenuti di qualità, l'efficacia dell'apprendimento con Duolingo è elevata, poiché utilizziamo l'intelligenza artificiale annidata con la conoscenza degli insegnanti per generare i compiti."
+        },
+        "boredSection": {
+            "title": "Niente di noioso. Niente di stancante",
+            "description": "Imparare con Duolingo è divertente e la ricerca dimostra che funziona davvero! Con lezioni brevi e veloci, guadagni punti e sblocchi nuovi livelli mentre impari a comunicare nella vita reale."
+        },
+        "advanceStepsSection": {
+            "title": "Studio. Imparalo. Avanzare",
+            "description": "Completa le attività quotidiane e migliora costantemente il tuo apprendimento. Ogni giorno vengono inviati nuovi compiti divertenti e stimolanti per ogni lingua che desideri imparare."
+        },
+        "tiredSection": {
+            "title": "Stanco. Frustrato. Triste",
+            "description": "Stanco di praticare una lingua per molti anni senza ottenere alcun risultato? Il tuo momento di imparare è arrivato con Duolingo, il miglior sito/app istituzionale per l'insegnamento delle lingue, con studi e risultati comprovati."
+        },
+        "trainingSection": {
+            "title": "Esercizio. Treno. Pratica",
+            "description": "Fai gli esercizi quotidiani, allenati costantemente fuori dal sito e dall'app e capisci che per migliorare il tuo livello in una determinata lingua devi esercitarti ogni giorno, dalla costanza imparerai e non dimenticherai mai."
+        },
+        "winnerSection": {
+            "title": "Studio. Persistere. Conquistare",
+            "description": "Studia più che puoi, stabilisci piccoli obiettivi quotidiani e persisti in una sana routine di studio, in questo modo andrai lontano e padroneggerai e conquisterai le lingue che desideri. Solo provandoci sei già un campione."
+        }
+    },
+    "authPage": {
+        "title": "Impara una lingua gratuitamente.",
+        "description": "Accedi al tuo account e inizia il tuo percorso di apprendimento.",
+        "otpVerification": {
+            "title": "Controlla il codice e-mail",
+            "input": "Codice",
+            "button": "Continua"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "Nome",
+            "inputLastName": "Cognome",
+            "inputUsername": "Nome utente",
+            "inputEmail": "E-mail",
+            "inputPassword": "Parola d'ordine",
+            "submit": "Crea il mio account e inizia a imparare",
+            "signInText": "Accedi all'account"
+        },
+        "platforms": {
+            "title": "In alternativa, accedi a queste piattaforme",
+            "button": "Accedi con Google",
+            "haveAccount": "Hai già un account?"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "E-mail",
+            "submit": "Accedi al tuo account e impara una lingua",
+            "signUpText": "Registrati"
+        },
+        "platforms": {
+            "title": "In alternativa, accedi a queste piattaforme",
+            "googleButton": "Accedi con Google",
+            "microsoftButton": "Accedi con Microsoft",
+            "haveNotAccount": "Non hai un account?"
+        }
+    },
+    "footer": {
+        "title": "Impara una lingua con Duolingo",
+        "button": "Parti ora",
+        "columns": {
+            "institutional": {
+                "title": "Istituzionale",
+                "store": "Negozio",
+                "press": "Premere",
+                "whoWeAre": "Chi siamo",
+                "investors": "Investitori",
+                "guide": "Guida al marchio",
+                "efficacy": "Efficienza"
+            },
+            "products": {
+                "title": "Prodotti",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "social": {
+                "title": "Mezzi sociali",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "support": {
+                "title": "Aiuto e supporto",
+                "help": "Aiuto",
+                "contact": "Contatto",
+                "communityRules": "Regole della comunità",
+                "terms": "Termini di utilizzo",
+                "privacy": "Privacy",
+                "status": "Status"
+            },
+            "download": {
+                "title": "Scaricamento",
+                "android": {
+                    "available": "Disponibile su",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "Disponibile a",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

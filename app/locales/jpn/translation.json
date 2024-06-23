@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "無料で言語を学びましょう。",
+            "subtitle": "永遠に。どこからでも。",
+            "description": "深い知識の海に浸ってください。新しい言語を無料で楽しく効果的に学習できます。私たちの教材は人工知能によって作成され、高度な資格を持つ教師によってレビューされています。",
+            "registerButton": "学習を開始する",
+            "loginButton": "すでにアカウントを持っています"
+        },
+        "freeUseSection": {
+            "title": "無料。面白い。効果的",
+            "description": "無料で質の高いコンテンツを備えた Duolingo は、教師の知識をネストした人工知能を使用してタスクを生成するため、学習効果が高くなります。"
+        },
+        "boredSection": {
+            "title": "退屈なものは何もありません。何も疲れない",
+            "description": "Duolingo での学習は楽しいです。そして、それが本当に効果があることが研究によって証明されています。簡単な短いレッスンで、実生活でのコミュニケーション方法を学びながらポイントを獲得し、新しいレベルのロックを解除します。"
+        },
+        "advanceStepsSection": {
+            "title": "勉強。勉強しなさい。前進",
+            "description": "日々のタスクを完了し、常に学習を進めてください。学習に興味のある言語ごとに、楽しくてやりがいのある新しいタスクが毎日送信されます。"
+        },
+        "tiredSection": {
+            "title": "つかれた。イライラした。悲しい",
+            "description": "何年も言語を練習しても成果が出ないことにうんざりしていませんか?実証済みの研究と結果を備えた最高の教育機関向け言語教育 Web サイト/アプリである Duolingo で、学習の時間が到来しました。"
+        },
+        "trainingSection": {
+            "title": "エクササイズ。電車。練習する",
+            "description": "毎日の演習を行い、Web サイトやアプリの外で継続的にトレーニングし、特定の言語のレベルを向上させるには、毎日練習する必要があることを理解してください。一貫性から学習し、決して忘れることはありません。"
+        },
+        "winnerSection": {
+            "title": "勉強。続けてください。征服する",
+            "description": "できる限り勉強し、毎日の小さな目標を設定し、健康的な学習ルーチンを継続することで、遠くまで進み、希望する言語を習得し、克服することができます。試してみるだけで、あなたはすでにチャンピオンです。"
+        }
+    },
+    "authPage": {
+        "title": "無料で言語を学びましょう。",
+        "description": "アカウントにログインして、学習の旅を始めてください。",
+        "otpVerification": {
+            "title": "メールコードを確認する",
+            "input": "コード",
+            "button": "続く"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "名前",
+            "inputLastName": "姓",
+            "inputUsername": "ユーザー名",
+            "inputEmail": "Eメール",
+            "inputPassword": "パスワード",
+            "submit": "アカウントを作成して学習を始めましょう",
+            "signInText": "アカウントにログイン"
+        },
+        "platforms": {
+            "title": "または、これらのプラットフォームにログインします",
+            "button": "Googleでサインイン",
+            "haveAccount": "すでにアカウントをお持ちですか？"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "Eメール",
+            "submit": "アカウントにログインして言語を学びましょう",
+            "signUpText": "登録する"
+        },
+        "platforms": {
+            "title": "または、これらのプラットフォームにログインします",
+            "googleButton": "Googleでサインイン",
+            "microsoftButton": "Microsoft でサインイ",
+            "haveNotAccount": "アカウントをお持ちでない場合は、"
+        }
+    },
+    "footer": {
+        "title": "Duolingo で言語を学ぶ",
+        "button": "今すぐ始めましょう",
+        "columns": {
+            "institutional": {
+                "title": "制度的",
+                "store": "店",
+                "press": "プレス",
+                "whoWeAre": "私たちは誰なのか",
+                "investors": "投資家",
+                "guide": "ブランドガイド",
+                "efficacy": "効率"
+            },
+            "products": {
+                "title": "製品",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "social": {
+                "title": "ソーシャルメディア",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "support": {
+                "title": "ヘルプとサポート",
+                "help": "ヘルプ",
+                "contact": "接触",
+                "communityRules": "コミュニティルール",
+                "terms": "利用規約",
+                "privacy": "プライバシー",
+                "status": "状態"
+            },
+            "download": {
+                "title": "ダウンロード",
+                "android": {
+                    "available": "上で利用可能",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "で入手可能",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}

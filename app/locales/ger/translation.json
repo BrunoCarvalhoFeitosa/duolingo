@@ -1,0 +1,126 @@
+{
+    "homePage": {
+        "hero" : {
+            "title": "Lernen Sie kostenlos eine Sprache.",
+            "subtitle": "Für immer. Von überall.",
+            "description": "Tauchen Sie ein in ein Meer tiefgreifenden Wissens. Lernen Sie neue Sprachen kostenlos, unterhaltsam und effektiv. Unsere Materialien werden mit künstlicher Intelligenz erstellt und von hochqualifizierten Lehrern überprüft.",
+            "registerButton": "Beginne zu lernen",
+            "loginButton": "Ich habe bereits einen Account"
+        },
+        "freeUseSection": {
+            "title": "Frei. Lustig. Wirksam",
+            "description": "Kostenlos und mit hochwertigen Inhalten ist die Effektivität des Lernens mit Duolingo hoch, da wir künstliche Intelligenz nutzen, die mit dem Wissen der Lehrer verknüpft ist, um die Aufgaben zu erstellen."
+        },
+        "boredSection": {
+            "title": "Nichts Langweiliges. Nichts ermüdend",
+            "description": "Mit Duolingo zu lernen macht Spaß und die Forschung beweist, dass es wirklich funktioniert! Mit schnellen, kurzen Lektionen sammeln Sie Punkte, schalten neue Level frei und lernen gleichzeitig, wie man im wirklichen Leben kommuniziert."
+        },
+        "advanceStepsSection": {
+            "title": "Studie. Lern es. Vorauszahlung",
+            "description": "Erledige tägliche Aufgaben und lerne ständig weiter. Für jede Sprache, die Sie lernen möchten, werden Ihnen jeden Tag neue unterhaltsame und herausfordernde Aufgaben zugesandt."
+        },
+        "tiredSection": {
+            "title": "Müde. Frustriert. Traurig",
+            "description": "Sind Sie es leid, jahrelang eine Sprache zu üben und keine Ergebnisse zu erzielen? Mit Duolingo, der besten institutionellen Website/App für den Sprachunterricht mit bewährten Studien und Ergebnissen, ist Ihre Zeit zum Lernen gekommen."
+        },
+        "trainingSection": {
+            "title": "Übung. Zug. Üben",
+            "description": "Machen Sie die täglichen Übungen, trainieren Sie ständig außerhalb der Website und der App und verstehen Sie, dass Sie jeden Tag üben müssen, um Ihr Niveau in einer bestimmten Sprache zu verbessern. Durch Kontinuität werden Sie lernen und nie vergessen."
+        },
+        "winnerSection": {
+            "title": "Studie. Fortdauern. Erobern",
+            "description": "Lernen Sie so viel wie möglich, setzen Sie sich kleine tägliche Ziele und halten Sie an einer gesunden Lernroutine fest. Auf diese Weise werden Sie weit kommen und die gewünschten Sprachen beherrschen und erobern. Wenn du es nur versuchst, bist du bereits ein Champion."
+        }
+    },
+    "authPage": {
+        "title": "Lernen Sie kostenlos eine Sprache.",
+        "description": "Melden Sie sich bei Ihrem Konto an und beginnen Sie Ihre Lernreise.",
+        "otpVerification": {
+            "title": "Überprüfen Sie den E-Mail-Code",
+            "input": "Code",
+            "button": "Weitermachen"
+        }
+    },
+    "signUpPage": {
+        "form": {
+            "inputFirstName": "Name",
+            "inputLastName": "Nachname",
+            "inputUsername": "Nutzername",
+            "inputEmail": "Email",
+            "inputPassword": "Passwort",
+            "submit": "Erstellen Sie mein Konto und beginnen Sie mit dem Lernen",
+            "signInText": "Melden Sie sich bei Ihrem Konto an"
+        },
+        "platforms": {
+            "title": "Alternativ können Sie sich auch auf diesen Plattformen anmelden",
+            "button": "Anmeldung mit Google",
+            "haveAccount": "Sie haben bereits ein Konto?"
+        }
+    },
+    "signInPage": {
+        "form": {
+            "input": "Email",
+            "submit": "Melden Sie sich bei Ihrem Konto an und lernen Sie eine Sprache",
+            "signUpText": "Registrieren"
+        },
+        "platforms": {
+            "title": "Alternativ können Sie sich auch auf diesen Plattformen anmelden",
+            "googleButton": "Anmeldung mit Google",
+            "microsoftButton": "Melden Sie sich bei Microsoft an",
+            "haveNotAccount": "Sie haben noch kein Konto?"
+        }
+    },
+    "footer": {
+        "title": "Lernen Sie eine Sprache mit Duolingo",
+        "button": "Jetzt anfangen",
+        "columns": {
+            "institutional": {
+                "title": "Institutionell",
+                "store": "Speichern",
+                "press": "Drücken Sie",
+                "whoWeAre": "Wer wir sind",
+                "investors": "Investoren",
+                "guide": "Markenführer",
+                "efficacy": "Effizienz"
+            },
+            "products": {
+                "title": "Produkte",
+                "duolingo": "Duolingo",
+                "duolingoForSchools": "Duolingo for Schools",
+                "duolingoEnglishTest": "Duolingo English Test",
+                "poadcast": "Poadcast",
+                "duolingoForBusiness": "Duolingo for Business",
+                "superDuolingo": "Super Duolingo"
+            },
+            "social": {
+                "title": "Sozialen Medien",
+                "blog": "Blog",
+                "instagram": "Instagram",
+                "facebook": "Facebook",
+                "twitter": "Twitter",
+                "youtube": "Youtube",
+                "dribble": "Dribble"
+            },
+            "support": {
+                "title": "Hilfe und Unterstützung",
+                "help": "Helfen",
+                "contact": "Kontakt",
+                "communityRules": "Gemeinschaftsregeln",
+                "terms": "Nutzungsbedingungen",
+                "privacy": "Privatsphäre",
+                "status": "Status"
+            },
+            "download": {
+                "title": "Herunterladen",
+                "android": {
+                    "available": "Verfügbar auf",
+                    "store": "Google Play"
+                },
+                "ios": {
+                    "available": "Verfügbar um",
+                    "store": "App Store"
+                }
+            }
+        }
+    }
+}
