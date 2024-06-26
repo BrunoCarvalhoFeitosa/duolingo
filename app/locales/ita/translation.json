@@ -59,7 +59,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "E-mail",
+            "inputEmail": "E-mail",
             "submit": "Accedi al tuo account e impara una lingua",
             "signUpText": "Registrati"
         },
@@ -68,6 +68,14 @@
             "googleButton": "Accedi con Google",
             "microsoftButton": "Accedi con Microsoft",
             "haveNotAccount": "Non hai un account?"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "Imparare",
+            "leaderboard": "Classifica",
+            "quests": "Missioni",
+            "shop": "Negozio"
         }
     },
     "footer": {

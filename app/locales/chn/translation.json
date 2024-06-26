@@ -59,7 +59,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "電子郵件",
+            "inputEmail": "電子郵件",
             "submit": "登入您的帳戶並學習語言",
             "signUpText": "登記"
         },
@@ -68,6 +68,14 @@
             "googleButton": "進入 Google",
             "microsoftButton": "進入微軟",
             "haveNotAccount": "沒有帳戶？"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "學習",
+            "leaderboard": "排行榜",
+            "quests": "任務",
+            "shop": "店鋪"
         }
     },
     "footer": {

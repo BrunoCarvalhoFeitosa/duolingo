@@ -59,7 +59,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "Eメール",
+            "inputEmail": "Eメール",
             "submit": "アカウントにログインして言語を学びましょう",
             "signUpText": "登録する"
         },
@@ -68,6 +68,14 @@
             "googleButton": "Googleでサインイン",
             "microsoftButton": "Microsoft でサインイ",
             "haveNotAccount": "アカウントをお持ちでない場合は、"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "学ぶ",
+            "leaderboard": "リーダーボード",
+            "quests": "クエスト",
+            "shop": "店"
         }
     },
     "footer": {

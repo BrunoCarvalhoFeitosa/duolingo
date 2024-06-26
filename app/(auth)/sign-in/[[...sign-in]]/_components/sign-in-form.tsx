@@ -19,12 +19,12 @@ export const SignInForm = () => {
                     <Clerk.GlobalError className="block text-sm text-red-600" />
                     <Clerk.Field name="identifier">
                         <Clerk.Label className="sr-only">
-                            {t("signInPage.form.input")}
+                            {t("signInPage.form.inputEmail")}
                         </Clerk.Label>
                         <Clerk.Input
                             required
                             type="email"
-                            placeholder={t("signInPage.form.input")}
+                            placeholder={t("signInPage.form.inputEmail")}
                             autoComplete="off"
                             className="w-full border-b border-neutral-100 bg-white p-2 text-sm/6 md:text-base text-neutral-950 outline-none placeholder:text-neutral-400 hover:border-neutral-200 focus:border-neutral-300 data-[invalid]:placeholder:text-red-600 data-[invalid]:border-red-600 data-[invalid]:text-red-600"
                         />

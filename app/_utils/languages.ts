@@ -1,15 +1,15 @@
 export const languages = [
     {
-        id: 1,
-        value: "en",
-        label: "Inglês",
-        icon: "/images/image-flag-eua.png"
-    },
-    {
         id: 2,
         value: "br",
         label: "Brasil",
         icon: "/images/image-flag-brazil.png"
+    },
+    {
+        id: 1,
+        value: "en",
+        label: "Inglês",
+        icon: "/images/image-flag-eua.png"
     },
     {
         id: 3,

@@ -1,7 +1,7 @@
 "use client"
-import { usePathname } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
+import { usePathname } from "next/navigation"
 import { Button } from "@/app/_components/ui/button"
 
 interface SidebarItemProps {
@@ -25,8 +25,8 @@ export const SidebarItem = ({ label, iconSrc, href }: SidebarItemProps) => {
                     <Image
                         src={iconSrc}
                         alt={label}
-                        width={32}
-                        height={32}
+                        width={36}
+                        height={36}
                     />
                 </div>
                 <div className="font-semibold uppercase">

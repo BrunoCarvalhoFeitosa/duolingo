@@ -1,4 +1,5 @@
 "use client"
+import { useUser } from "@clerk/nextjs"
 import { useTranslation } from "react-i18next"
 import Link from "next/link"
 import { Button } from "@/app/_components/ui/button"
@@ -8,7 +9,12 @@ import { AndroidIconSvg } from "@/public/svgs/android-icon-svg"
 import { AppleIconSvg } from "@/public/svgs/apple-icon-svg"
 
 export const Footer = () => {
+    const { user } = useUser()
     const { t } = useTranslation()
+
+    const handleRedirectToApp = () => {
+        window.location.href = "/learn"
+    }
 
     return (
         <footer className="relative mt-24 w-full">
@@ -16,16 +22,28 @@ export const Footer = () => {
                 <h3 className="text-xl md:text-4xl xl:text-6xl font-extrabold text-center text-lime-500">
                     {t("footer.title")}
                 </h3>
-                <Link href="/register" className="mx-auto w-3/4">
-                    <Button
-                        type="button"
-                        variant="default"
-                        size="lg"
-                        className="w-full bg-lime-500"
-                    >
-                        {t("footer.button")}
-                    </Button>
-                </Link>
+                {user ? (
+                        <Button
+                            type="button"
+                            variant="default"
+                            size="lg"
+                            className="w-full bg-lime-500"
+                            onClick={handleRedirectToApp}
+                        >
+                            {t("footer.button")}
+                        </Button>
+                ) : (
+                    <Link href="/register" className="mx-auto w-3/4">
+                        <Button
+                            type="button"
+                            variant="default"
+                            size="lg"
+                            className="w-full bg-lime-500"
+                        >
+                            {t("footer.button")}
+                        </Button>
+                    </Link>
+                )}
             </div>
             <div className="relative w-full">
                 <DuolingoFooterImageSvg />
@@ -193,7 +211,7 @@ export const Footer = () => {
                                         type="button"
                                         size="lg"
                                         variant="secondary"
-                                        className="flex items-center gap-2"
+                                        className="flex items-center gap-2 w-full"
                                     >
                                         <div>
                                             <AndroidIconSvg width="40" height="40" />
@@ -215,7 +233,7 @@ export const Footer = () => {
                                         type="button"
                                         size="lg"
                                         variant="secondary"
-                                        className="flex items-center gap-2"
+                                        className="flex items-center gap-2 w-full"
                                     >
                                         <div>
                                             <AppleIconSvg width="45" height="45" />

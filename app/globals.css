@@ -72,6 +72,16 @@
     @apply h-full;
   }
 
+  ::selection {
+    background: #020817;
+    color: #FFF;
+  }
+  
+  ::-moz-selection {
+    background: #020817;
+    color: #FFF;
+  }
+
   @keyframes animate-bounce-duolingo-small {
     0%, 100% {
       transform: translateY(18px);
@@ -196,6 +206,7 @@
     * {
       @apply border-border;
     }
+
     body {
       @apply bg-background text-foreground;
     }

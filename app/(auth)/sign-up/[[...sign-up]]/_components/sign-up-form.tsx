@@ -1,11 +1,10 @@
 "use client"
+import { useState } from "react"
 import * as Clerk from "@clerk/elements/common"
 import * as SignUp from "@clerk/elements/sign-up"
 import { useTranslation } from "react-i18next"
 import Link from "next/link"
-import { GoogleIconSvg } from "@/public/svgs/google-icon-svg"
 import { Button } from "@/app/_components/ui/button"
-import { useState } from "react"
 import { EyeIcon, EyeOffIcon } from "lucide-react"
 
 export const SignUpForm = () => {

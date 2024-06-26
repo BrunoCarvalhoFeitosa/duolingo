@@ -8,7 +8,7 @@ interface DuolingoIconProps {
 
 export const DuolingoIcon = ({ href }: DuolingoIconProps) => {
     return (
-        <Link href={href} className="w-fit">
+        <Link href={`${href}`} className="w-fit">
             <DuolingoLogoImageSvg
                 width="140"
                 height="30"

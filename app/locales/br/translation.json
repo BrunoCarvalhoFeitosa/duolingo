@@ -71,6 +71,14 @@
             "haveNotAccount": "Não tem uma conta?"
         }
     },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "Aprender",
+            "leaderboard": "Ranking",
+            "quests": "Questões",
+            "shop": "Loja"
+        }
+    },
     "footer": {
         "title": "Aprenda um idioma com o Duolingo",
         "button": "Comece agora",
