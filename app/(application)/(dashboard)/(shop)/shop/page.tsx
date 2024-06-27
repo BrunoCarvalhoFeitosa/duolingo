@@ -3,8 +3,10 @@ import { redirect } from "next/navigation"
 import { StickyWrapper } from "@/app/_components/common/application/globals/sticky-wrapper"
 import { UserProgress } from "@/app/_components/common/application/globals/user-progress"
 import { FeedWrapper } from "@/app/_components/common/application/globals/feed-wrapper"
+import { Items } from "@/app/(application)/(dashboard)/(shop)/shop/_components/items"
 import { FeedHeader } from "@/app/_components/common/application/globals/feed-header"
-import Items from "@/app/(application)/(dashboard)/(shop)/shop/_components/items"
+import { Quests } from "@/app/_components/common/application/globals/quests"
+import { Promo } from "@/app/_components/common/application/globals/promo"
 
 const ShopPage = async () => {
     const userProgressData = getUserProgress()
@@ -14,6 +16,8 @@ const ShopPage = async () => {
         userProgressData,
         userSubscriptionData
     ])
+
+    const isPro = !!userSubscription?.isActive
 
     if (!userProgress || !userProgress.activeCourse) {
         redirect("/courses")
@@ -47,6 +51,8 @@ const ShopPage = async () => {
                     points={userProgress.points}
                     hasActiveSubscription={!!userSubscription?.isActive}
                 />
+                {!isPro && <Promo />}
+                <Quests points={userProgress.points} />
             </StickyWrapper>
         </div>
     )

@@ -16,7 +16,9 @@ export const CoursesList = ({ courses, activeCourseId }: CoursesListProps) => {
     const [pending, startTransition] = useTransition()
 
     const onClick = (id: number) => {
-        if (pending) return
+        if (pending) {
+            return
+        }
 
         if (id === activeCourseId) {
             return router.push("/learn")

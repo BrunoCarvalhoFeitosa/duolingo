@@ -1,16 +1,22 @@
-import { getUserProgress } from "@/db/queries"
+import { getUserProgress, getUserSubscription } from "@/db/queries"
 import { redirect } from "next/navigation"
 import { StickyWrapper } from "@/app/_components/common/application/globals/sticky-wrapper"
 import { UserProgress } from "@/app/_components/common/application/globals/user-progress"
 import { FeedWrapper } from "@/app/_components/common/application/globals/feed-wrapper"
 import { FeedHeader } from "@/app/_components/common/application/globals/feed-header"
+import { QuestsList } from "@/app/(application)/(dashboard)/(quests)/quests/_components/quests-list"
+import { Promo } from "@/app/_components/common/application/globals/promo"
 
 const QuestsPage = async () => {
     const userProgressData = getUserProgress()
+    const userSubscriptionData = getUserSubscription()
 
-    const [userProgress] = await Promise.all([
-        userProgressData
+    const [userProgress, userSubscription] = await Promise.all([
+        userProgressData,
+        userSubscriptionData
     ])
+
+    const isPro = !!userSubscription?.isActive
 
     if (!userProgress || !userProgress.activeCourse) {
         redirect("/courses")
@@ -28,6 +34,7 @@ const QuestsPage = async () => {
                         title="Missões"
                         description="Complete missões ganhando pontos."
                     />
+                    <QuestsList userProgress={userProgress} />
                 </div>
             </FeedWrapper>
             <StickyWrapper>
@@ -37,6 +44,7 @@ const QuestsPage = async () => {
                     points={userProgress.points}
                     hasActiveSubscription={false}
                 />
+                {!isPro && <Promo />}
             </StickyWrapper>
         </div>
     )

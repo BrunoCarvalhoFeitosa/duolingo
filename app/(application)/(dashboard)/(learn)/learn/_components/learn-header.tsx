@@ -9,7 +9,7 @@ interface LearnHeaderProps {
 
 export const LearnHeader = ({ title }: LearnHeaderProps) => {
     return (
-        <div className="mb-5 sticky top-0 bg-white border-b text-neutral-400 lg:z-50">
+        <div className="mb-5 xl:py-[7px] sticky top-0 bg-white border-b text-neutral-400 lg:z-50">
             <div className="flex justify-between items-center w-[55%]">
                 <div className="hover:bg-gray-200">
                     <Link href="/courses">

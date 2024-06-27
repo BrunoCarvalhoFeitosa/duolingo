@@ -22,6 +22,8 @@ const main = async () => {
 
     await db.delete(schema.challengeProgress)
 
+    await db.delete(schema.userSubscription)
+
 
     // Language courses
     await db.insert(schema.courses).values([

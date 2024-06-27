@@ -5,6 +5,8 @@ import { UserProgress } from "@/app/_components/common/application/globals/user-
 import { FeedWrapper } from "@/app/_components/common/application/globals/feed-wrapper"
 import { FeedHeader } from "@/app/_components/common/application/globals/feed-header"
 import { LeaderboardList } from "@/app/(application)/(dashboard)/(leaderboard)/leaderboard/_components/leaderboard-list"
+import { Promo } from "@/app/_components/common/application/globals/promo"
+import { Quests } from "@/app/_components/common/application/globals/quests"
 
 const LeaderBoardPage = async () => {
     const userProgressData = getUserProgress()
@@ -16,6 +18,8 @@ const LeaderBoardPage = async () => {
         userSubscriptionData,
         leaderboardData
     ])
+
+    const isPro = !!userSubscription?.isActive
 
     if (!userProgress || !userProgress.activeCourse) {
         redirect("/courses")
@@ -43,6 +47,8 @@ const LeaderBoardPage = async () => {
                     points={userProgress.points}
                     hasActiveSubscription={false}
                 />
+                {!isPro && <Promo />}
+                <Quests points={userProgress.points} />
             </StickyWrapper>
         </div>
     )

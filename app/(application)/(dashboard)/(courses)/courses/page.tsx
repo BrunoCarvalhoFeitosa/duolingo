@@ -12,12 +12,18 @@ const CoursesPage = async () => {
                     Cursos disponíveis
                 </h1>
             </div>
-            <div>
+            {courses.length ? (
                 <CoursesList
                     courses={courses}
                     activeCourseId={userProgress?.activeCourseId}
                 />
-            </div>
+            ) : (
+                <div>
+                    <p>
+                        Nenhum curso disponível, aguarde o lançamento.
+                    </p>
+                </div>
+            )}
         </div>
     )
 }

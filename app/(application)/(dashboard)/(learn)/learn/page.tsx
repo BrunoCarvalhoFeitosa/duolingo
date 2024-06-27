@@ -6,6 +6,8 @@ import { StickyWrapper } from "@/app/_components/common/application/globals/stic
 import { UserProgress } from "@/app/_components/common/application/globals/user-progress"
 import { LearnHeader } from "@/app/(application)/(dashboard)/(learn)/learn/_components/learn-header"
 import { LearnUnit } from "@/app/(application)/(dashboard)/(learn)/learn/_components/learn-unit"
+import { Promo } from "@/app/_components/common/application/globals/promo"
+import { Quests } from "@/app/_components/common/application/globals/quests"
 
 const LearnPage = async () => {
     const userProgressData = await getUserProgress()
@@ -21,6 +23,8 @@ const LearnPage = async () => {
         lessonPercentageData,
         userSubscriptionData
     ])
+
+    const isPro = !!userSubscription?.isActive
 
     if (!userProgress || !userProgress.activeCourse) {
         redirect("/courses")
@@ -55,8 +59,10 @@ const LearnPage = async () => {
                     hearts={userProgress.hearts}
                     points={userProgress.points}
                     activeCourse={userProgress.activeCourse}
-                    hasActiveSubscription={!!userSubscription?.isActive}
+                    hasActiveSubscription={isPro}
                 />
+                {!isPro && <Promo />}
+                <Quests points={userProgress.points} />
             </StickyWrapper>
         </div>
     )

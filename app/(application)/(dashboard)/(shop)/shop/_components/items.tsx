@@ -13,7 +13,7 @@ interface ItemsProps {
     hasActiveSubscription: boolean
 }
 
-const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => {
+export const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => {
     const [pending, startTransition] = useTransition()
 
     const handleRefillHearts = () => {
@@ -61,6 +61,7 @@ const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => {
                 <div>
                     <Button
                         type="button"
+                        size="lg"
                         variant={pending || hearts === 5 || points < POINTS_TO_REFILL ? "locked" : "default"}
                         disabled={pending || hearts === 5 || points < POINTS_TO_REFILL}
                         className="w-40 h-12"
@@ -93,7 +94,7 @@ const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => {
                             src="/images/icon-application-premium-heart.png"
                             width={44}
                             height={44}
-                            alt="Vida premium"
+                            alt="Duolingo Pro"
                         />
                     </div>
                     <div className="flex-1">
@@ -105,16 +106,15 @@ const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => {
                 <div>
                     <Button
                         type="button"
+                        size="lg"
                         disabled={pending}
                         className="w-40 h-12"
                         onClick={handleUpgrade}
                     >
-                        {hasActiveSubscription ? "Configurações" : "Comprar vidas"}
+                        {hasActiveSubscription ? "Renovar vidas" : "Comprar vidas"}
                     </Button>
                 </div>
             </li>
         </ul>
     )
 }
- 
-export default Items

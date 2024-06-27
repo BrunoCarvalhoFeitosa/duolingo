@@ -18,6 +18,7 @@ export const SidebarItem = ({ label, iconSrc, href }: SidebarItemProps) => {
         <Link href={href}>
             <Button
                 type="button"
+                size="lg"
                 variant={active ? "default" : "ghost"}
                 className="w-full h-14 justify-start gap-2"
             >
