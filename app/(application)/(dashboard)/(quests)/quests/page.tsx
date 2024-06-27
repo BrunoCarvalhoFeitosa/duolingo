@@ -6,6 +6,7 @@ import { FeedWrapper } from "@/app/_components/common/application/globals/feed-w
 import { FeedHeader } from "@/app/_components/common/application/globals/feed-header"
 import { QuestsList } from "@/app/(application)/(dashboard)/(quests)/quests/_components/quests-list"
 import { Promo } from "@/app/_components/common/application/globals/promo"
+import { Quests } from "@/app/_components/common/application/globals/quests"
 
 const QuestsPage = async () => {
     const userProgressData = getUserProgress()
@@ -45,6 +46,7 @@ const QuestsPage = async () => {
                     hasActiveSubscription={false}
                 />
                 {!isPro && <Promo />}
+                <Quests points={userProgress.points} />
             </StickyWrapper>
         </div>
     )

@@ -5,11 +5,6 @@ export const LessonEdit = () => {
         <Edit>
             <SimpleForm>
                 <TextInput
-                    source="id"
-                    label="Id"
-                    validate={[required()]}
-                />
-                <TextInput
                     source="title"
                     label="Título"
                     validate={[required()]}
