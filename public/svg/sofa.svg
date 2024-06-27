@@ -1,0 +1,17 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 58 58" xml:space="preserve" width="192" height="256">
+	<polygon style="fill:#36363A;" points="9,21.5 0,21.5 4,17.5 9,17.5 " />
+	<polygon style="fill:#36363A;" points="49,21.5 58,21.5 54,17.5 49,17.5 " />
+	<path style="fill:#2F2F31;" d="M47.066,9.5H10.934C9.866,9.5,9,10.366,9,11.434V26.5v4.264V38.5h40v-7.736V26.5V11.434
+	C49,10.366,48.134,9.5,47.066,9.5z" />
+	<polygon style="fill:#232321;" points="49,31.5 53,35.5 53,21.5 49,17.5 " />
+	<polygon style="fill:#232321;" points="9,31.5 5,35.5 5,21.5 9,17.5 " />
+	<polygon style="fill:#2E2D2B;" points="53,21.5 53,38.5 5,38.5 5,21.5 0,21.5 0,43.5 58,43.5 58,21.5 " />
+	<polygon style="fill:#BFA380;" points="10,43.5 9,48.5 11,48.5 16,43.5 " />
+	<polygon style="fill:#BFA380;" points="50,43.5 51,48.5 49,48.5 44,43.5 " />
+	<path style="fill:#515151;" d="M5,38.5h4.728H29v-4.75c0-1.795-1.455-3.25-3.25-3.25H11c-2.393,0-4.534,1.056-6,2.721V38.5z" />
+	<g>
+		<rect x="13" y="13.5" style="fill:#232321;" width="32" height="4" />
+		<polygon style="fill:#232321;" points="13,22.5 13,26.5 25.75,26.5 32.25,26.5 45,26.5 45,22.5 	" />
+	</g>
+	<path style="fill:#414144;" d="M53,38.5h-4.728H29v-4.75c0-1.795,1.455-3.25,3.25-3.25H47c2.393,0,4.534,1.056,6,2.721V38.5z" />
+</svg>
