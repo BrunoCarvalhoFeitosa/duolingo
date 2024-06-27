@@ -1,8 +1,7 @@
-/* eslint-disable */
 "use client"
 import simpleRestProvider from "ra-data-simple-rest"
-import ptBrMessages from 'ra-language-pt-br'
-import polyglotI18nProvider from 'ra-i18n-polyglot'
+// import ptBrMessages from 'ra-language-pt-br'
+// import polyglotI18nProvider from 'ra-i18n-polyglot'
 import { Admin, Resource } from "react-admin"
 import { CourseList } from "@/app/(admin)/admin/course/course-list"
 import { CourseCreate } from "@/app/(admin)/admin/course/course-create"
@@ -21,15 +20,14 @@ import { ChallengeOptionCreate } from "@/app/(admin)/admin/challengeOptions/chal
 import { ChallengeOptionEdit } from "@/app/(admin)/admin/challengeOptions/challenge-option-edit"
 
 const dataProvider = simpleRestProvider("/api")
-const messages = { "pt-br": ptBrMessages }
-/* eslint-disable */
-const i18nProvider = polyglotI18nProvider(locale => messages[locale], 'pt-br')
+// const messages = { "pt-br": ptBrMessages }
+// const i18nProvider = polyglotI18nProvider(locale => messages[locale], 'pt-br')
 
 const App = () => {
     return (
         <Admin
             dataProvider={dataProvider}
-            i18nProvider={i18nProvider}
+            // i18nProvider={i18nProvider}
             defaultTheme="dark"
         >
             <Resource
