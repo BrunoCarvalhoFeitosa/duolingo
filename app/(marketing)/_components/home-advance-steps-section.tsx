@@ -1,14 +1,9 @@
-"use client";
-import { useTranslation } from "react-i18next";
-import { DuolingoAngryImageSvg } from "@/public/svgs/duolingo-angry-image-svg";
+"use client"
+import { useTranslation } from "react-i18next"
+import { DuolingoAngryImageSvg } from "@/public/svgs/duolingo-angry-image-svg"
 
-<<<<<<< HEAD:app/(marketing)/_components/advance-steps-section.tsx
-export const AdvanceStepsSection = () => {
-  const { t } = useTranslation();
-=======
 export const HomeAdvanceStepsSection = () => {
-    const { t } = useTranslation()
->>>>>>> 527334eb347a4e1d378ea21e68d267806d59566c:app/(marketing)/_components/home-advance-steps-section.tsx
+  const { t } = useTranslation()
 
   return (
     <section className="py-12 md:py-28 px-5 w-full bg-white">
@@ -26,5 +21,5 @@ export const HomeAdvanceStepsSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

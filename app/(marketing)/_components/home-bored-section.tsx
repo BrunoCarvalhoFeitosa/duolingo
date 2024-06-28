@@ -1,14 +1,9 @@
-"use client";
-import { useTranslation } from "react-i18next";
-import { DuolingoBoredImageSvg } from "@/public/svgs/duolingo-bored-image-svg";
+"use client"
+import { useTranslation } from "react-i18next"
+import { DuolingoBoredImageSvg } from "@/public/svgs/duolingo-bored-image-svg"
 
-<<<<<<< HEAD:app/(marketing)/_components/bored-section.tsx
-export const BoredSection = () => {
-  const { t } = useTranslation();
-=======
 export const HomeBoredSection = () => {
     const { t } = useTranslation()
->>>>>>> 527334eb347a4e1d378ea21e68d267806d59566c:app/(marketing)/_components/home-bored-section.tsx
 
   return (
     <section className="pt-10 md:pt-28 px-5 w-full bg-white">
@@ -26,5 +21,5 @@ export const HomeBoredSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

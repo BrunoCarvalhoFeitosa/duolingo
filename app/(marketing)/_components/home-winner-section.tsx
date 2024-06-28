@@ -1,14 +1,9 @@
-"use client";
-import { useTranslation } from "react-i18next";
-import { DuolingoWinnerImageSvg } from "@/public/svgs/duolingo-winner-image-svg";
+"use client"
+import { useTranslation } from "react-i18next"
+import { DuolingoWinnerImageSvg } from "@/public/svgs/duolingo-winner-image-svg"
 
-<<<<<<< HEAD:app/(marketing)/_components/winner-section.tsx
-export const WinnerSection = () => {
-  const { t } = useTranslation();
-=======
 export const HomeWinnerSection = () => {
     const { t } = useTranslation()
->>>>>>> 527334eb347a4e1d378ea21e68d267806d59566c:app/(marketing)/_components/home-winner-section.tsx
 
   return (
     <section className="pt-10 md:pt-28 px-5 w-full bg-white">
@@ -26,5 +21,5 @@ export const HomeWinnerSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
