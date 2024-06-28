@@ -59,7 +59,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "Email",
+            "inputEmail": "Email",
             "submit": "Melden Sie sich bei Ihrem Konto an und lernen Sie eine Sprache",
             "signUpText": "Registrieren"
         },
@@ -68,6 +68,14 @@
             "googleButton": "Anmeldung mit Google",
             "microsoftButton": "Melden Sie sich bei Microsoft an",
             "haveNotAccount": "Sie haben noch kein Konto?"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "Lernen",
+            "leaderboard": "Bestenliste",
+            "quests": "Quests",
+            "shop": "Geschäft"
         }
     },
     "footer": {

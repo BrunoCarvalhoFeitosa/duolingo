@@ -20,8 +20,8 @@ export const UserProgress = ({ activeCourse, hearts, points, hasActiveSubscripti
                     <Image
                         src={activeCourse.imageSrc}
                         alt={activeCourse.title}
-                        width={34}
-                        height={34}
+                        width={40}
+                        height={40}
                     />
                 </Button>
             </Link>
@@ -30,10 +30,10 @@ export const UserProgress = ({ activeCourse, hearts, points, hasActiveSubscripti
                     <Image
                         src="/images/icon-application-ray.png"
                         alt="Points"
-                        width={28}
-                        height={38}
+                        width={32}
+                        height={32}
                     />
-                    <div className="font-bold">
+                    <div className="text-lg font-extrabold text-yellow-500">
                         {points}
                     </div>
                 </Button>
@@ -43,12 +43,12 @@ export const UserProgress = ({ activeCourse, hearts, points, hasActiveSubscripti
                     <Image
                         src="/images/icon-application-heart.png"
                         alt="Hearts"
-                        width={24}
-                        height={24}
+                        width={28}
+                        height={28}
                     />
                     {hasActiveSubscription
-                        ? <InfinityIcon className="w-4 h-4 stroke-[3]" />
-                        : <div className="font-bold">{hearts}</div>
+                        ? <InfinityIcon className="w-7 h-7 stroke-[3] text-[#E63714]" />
+                        : <div className="text-base font-extrabold text-[#E63714]">{hearts}</div>
                     }
                 </Button>
             </Link>

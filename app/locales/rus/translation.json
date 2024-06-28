@@ -59,7 +59,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "Электронная почта",
+            "inputEmail": "Электронная почта",
             "submit": "Войдите в свою учетную запись и выучите язык",
             "signUpText": "регистр"
         },
@@ -68,6 +68,14 @@
             "googleButton": "Войти через Google",
             "microsoftButton": "Войти через Microsoft",
             "haveNotAccount": "У вас нет учетной записи?"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "учиться",
+            "leaderboard": "таблица лидеров",
+            "quests": "квесты",
+            "shop": "магазин"
         }
     },
     "footer": {

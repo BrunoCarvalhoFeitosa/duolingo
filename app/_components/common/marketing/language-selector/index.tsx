@@ -1,19 +1,16 @@
 "use client"
-import { useState } from "react"
-import i18n from "@/app/i18n"
 import { cn } from "@/app/_libs/utils"
+import { useSelectLanguage } from "@/store/use-language"
 import { languages } from "@/app/_utils/languages"
-import Image from "next/image"
 import { Button } from "@/app/_components/ui/button"
+import Image from "next/image"
 
 export const LanguageSelector = () => {
-    const [selectedLanguage, setSelectedLanguage] = useState<string>(i18n.language)
-
+    const { setSelectedLanguage, selectedLanguage } = useSelectLanguage()
 
     const handleChooseLanguage = (language: string) => {
         if (selectedLanguage) {
-            i18n.changeLanguage(language)
-            setSelectedLanguage(language)
+           setSelectedLanguage(language)
         }
     }
 

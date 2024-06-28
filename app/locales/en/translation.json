@@ -60,7 +60,7 @@
     },
     "signInPage": {
         "form": {
-            "input": "E-mail",
+            "inputEmail": "E-mail",
             "submit": "Log in to your account and learn a language",
             "signUpText": "Sign-up"
         },
@@ -69,6 +69,14 @@
             "googleButton": "Sign in with Google",
             "microsoftButton": "Sign in with Microsoft",
             "haveNotAccount": "Don't have an account?"
+        }
+    },
+    "applicationPage": {
+        "sidebar": {
+            "learn": "Aprender",
+            "leaderboard": "Ranking dos melhores",
+            "quests": "Questões",
+            "shop": "Loja"
         }
     },
     "footer": {
