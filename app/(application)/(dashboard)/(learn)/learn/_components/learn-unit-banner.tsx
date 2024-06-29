@@ -15,7 +15,7 @@ export const LearnUnitBanner = ({ title, description }: LearnUnitBannerProps) =>
                 <h3 className="text-2xl font-bold">
                     {title}
                 </h3>
-                <p className="mt-0 text-lg">
+                <p className="mt-0 text-base md:text-lg">
                     {description}
                 </p>
             </div>
@@ -25,7 +25,7 @@ export const LearnUnitBanner = ({ title, description }: LearnUnitBannerProps) =>
                         type="button"
                         variant="secondary"
                         size="lg"
-                        className="hidden xl:flex"
+                        className="hidden md:flex"
                     >
                         <NotebookTextIcon className="mr-2" />
                         <span>Continuar</span>

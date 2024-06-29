@@ -25,7 +25,7 @@ export const Quests = ({ points }: QuestsProps) => {
                 </div>
                 <div className="w-full">
                 <ul className="flex flex-col gap-3">
-                    {quests.slice(0, 5).map((quest, index) => {
+                    {quests.slice(0, 6).map((quest, index) => {
                         const progress = (points / quest.value) * 100
 
                         return (
