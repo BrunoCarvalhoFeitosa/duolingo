@@ -16,7 +16,7 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
         <Fragment>
             {isLoaded && (
                 <div className="flex justify-center items-center w-full min-h-[100dvh]">
-                    <div className="px-0 md:px-8 mx-auto w-full xl:w-[40%] h-full">
+                    <div className="py-7 px-0 md:px-8 mx-auto w-full xl:w-[820px] h-full">
                         <div className="h-full flex flex-col w-full justify-center">
                             <div className="px-4 md:px-0">
                                 <div className="mb-6">

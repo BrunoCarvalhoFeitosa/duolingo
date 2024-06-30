@@ -18,7 +18,7 @@ export const Footer = () => {
 
     return (
         <footer className="relative md:mt-24 w-full">
-            <div className="absolute -top-7 lg:top-16 2xl:top-28 left-2/4 -translate-x-2/4 mx-auto w-full md:w-2/4 xl:w-[50%] 2xl:w-[38%] flex flex-col gap-2 md:gap-8 z-10">
+            <div className="absolute -top-7 xl:top-16 2xl:top-28 left-2/4 -translate-x-2/4 mx-auto w-full md:w-2/4 lg:w-[40%] xl:w-[50%] 2xl:w-[38%] flex flex-col gap-2 md:gap-8 z-10">
                 <h3 className="text-xl md:text-4xl xl:text-6xl font-extrabold text-center text-lime-500">
                     {t("footer.title")}
                 </h3>

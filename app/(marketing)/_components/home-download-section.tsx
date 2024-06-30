@@ -15,7 +15,7 @@ export const HomeDownloadSection = () => {
                 {t("homePage.downloadSection.description")}
             </p>
         </div>
-        <div className="relative translate-x-7 mx-auto flex justify-center w-full md:w-[80%] xl:w-2/5 h-[360px] md:h-[600px] lg:h-[800px]">
+        <div className="relative translate-x-7 mx-auto flex justify-center w-full md:w-[80%] xl:w-2/5 h-[360px] md:h-[55dvh] lg:[65dvh] xl:lg:h-[80dvh]">
             <Image
                 fill
                 src="/images/image-duolingo-app-screen.png"
