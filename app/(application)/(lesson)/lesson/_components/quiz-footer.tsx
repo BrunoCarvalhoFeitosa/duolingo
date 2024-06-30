@@ -36,7 +36,7 @@ export const QuizFooter = ({
                             <span className="text-base lg:text-2xl font-bold text-green-500">
                                 Muito bem!
                             </span>
-                            <strong className="-translate-y-[6px] text-xs">
+                            <strong className="-translate-y-[6px] text-xs md:text-sm">
                                 Resposta correta.
                             </strong>
                         </div>

@@ -1,9 +1,23 @@
 "use client"
-import Link from "next/link"
+import { startTransition } from "react"
+import { createStripeUrl } from "@/actions/user-subscription"
+import { toast } from "sonner"
 import Image from "next/image"
 import { Button } from "@/app/_components/ui/button"
 
 export const Promo = () => {
+    const handleUpgrade = () => {
+        startTransition(() => {
+            createStripeUrl().then((response) => {
+                if (response.data) {
+                    window.location.href = response.data
+                }
+            }).catch(() => {
+                toast.error("Something went wrong.")
+            })
+        })
+    }
+
     return (
         <div className="p-4 border rounded-xl space-y-4">
             <div className="space-y-2">
@@ -28,14 +42,14 @@ export const Promo = () => {
                     </p>
                 </div>
                 <div className="mt-3 w-full">
-                    <Link href="/shop">
-                        <Button
+                    <Button
                             type="button"
+                            variant="default"
                             size="lg"
+                            onClick={handleUpgrade}
                         >
-                            Assinar o Duolingo Pro agora
-                        </Button>
-                    </Link>
+                        Assinar o Duolingo Pro agora
+                    </Button>
                 </div>
             </div>
         </div>
