@@ -530,7 +530,7 @@ const main = async () => {
         order: 6,
         lessonId: 2,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adulta"?',
+        question: 'Qual destas opções corresponde a expressão "o adulto"?',
       },
     ])
 
@@ -1771,7 +1771,7 @@ const main = async () => {
         order: 42,
         lessonId: 14,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adulta"?',
+        question: 'Qual destas opções corresponde a expressão "o adulto"?',
       },
     ])
 
@@ -3012,7 +3012,7 @@ const main = async () => {
         order: 78,
         lessonId: 26,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adulta"?',
+        question: 'Qual destas opções corresponde a expressão "o adulto"?',
       },
     ])
 
@@ -3134,7 +3134,7 @@ const main = async () => {
         imageSrc: "/svg/son.svg",
         audioSrc: "/audios/fra/question-three/le-fils.mp3",
         correct: true,
-        text: "le-fils",
+        text: "le fils",
       },
       {
         challengeId: 79,
@@ -3159,7 +3159,7 @@ const main = async () => {
         imageSrc: "/svg/son.svg",
         audioSrc: "/audios/fra/question-three/le-fils.mp3",
         correct: false,
-        text: "le-fils",
+        text: "le fils",
       },
       {
         challengeId: 80,
@@ -3184,7 +3184,7 @@ const main = async () => {
         imageSrc: "/svg/son.svg",
         audioSrc: "/audios/fra/question-three/le-fils.mp3",
         correct: false,
-        text: "le-fils",
+        text: "le fils",
       },
       {
         challengeId: 81,
@@ -3655,9 +3655,9 @@ const main = async () => {
       {
         challengeId: 94,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/fra/question-eight/le-crepe.mp3",
+        audioSrc: "/audios/fra/question-eight/la-crepe.mp3",
         correct: false,
-        text: "le crêpe",
+        text: "la crêpe",
       },
     ])
 
@@ -3680,13 +3680,13 @@ const main = async () => {
       {
         challengeId: 95,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/fra/question-eight/le-crepe.mp3",
+        audioSrc: "/audios/fra/question-eight/la-crepe.mp3",
         correct: false,
-        text: "le crêpe",
+        text: "la crêpe",
       },
     ])
 
-    // Options French "Le crêpe"
+    // Options French "La crêpe"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 96,
@@ -3705,9 +3705,9 @@ const main = async () => {
       {
         challengeId: 96,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/fra/question-eight/le-crepe.mp3",
+        audioSrc: "/audios/fra/question-eight/la-crepe.mp3",
         correct: true,
-        text: "le crêpe",
+        text: "la crêpe",
       },
     ])
 
@@ -4254,7 +4254,7 @@ const main = async () => {
         order: 114,
         lessonId: 38,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adulta"?',
+        question: 'Qual destas opções corresponde a expressão "o adulto"?',
       },
     ])
 

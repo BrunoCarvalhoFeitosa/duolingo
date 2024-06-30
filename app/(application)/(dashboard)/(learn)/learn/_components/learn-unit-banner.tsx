@@ -15,7 +15,7 @@ export const LearnUnitBanner = ({ title, description }: LearnUnitBannerProps) =>
                 <h3 className="text-2xl font-bold">
                     {title}
                 </h3>
-                <p className="mt-0 text-base md:text-lg">
+                <p className="mt-0 translate-y-[-14px] text-base md:text-lg">
                     {description}
                 </p>
             </div>

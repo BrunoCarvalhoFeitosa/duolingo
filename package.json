@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "start": "next start",
+    "build": "next build",
+    "lint": "next lint",
     "drizzle-studio": "npx drizzle-kit studio",
     "drizzle-generate": "npx drizzle-kit generate",
     "drizzle-migrate": "npx drizzle-kit migrate",
     "drizzle-seed": "tsx ./scripts/seed.ts",
-    "drizzle-reset": "tsx ./scripts/reset.ts",
-    "build": "next build",
-    "lint": "next lint"
+    "drizzle-reset": "tsx ./scripts/reset.ts"
   },
   "dependencies": {
     "@clerk/elements": "^0.8.0",

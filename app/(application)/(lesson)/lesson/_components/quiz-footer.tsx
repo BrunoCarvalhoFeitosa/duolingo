@@ -34,7 +34,7 @@ export const QuizFooter = ({
                         </div>
                         <div className="flex flex-col">
                             <span className="text-base lg:text-2xl font-bold text-green-500">
-                                Muito bem!
+                                Irado, mandou bem!
                             </span>
                             <strong className="-translate-y-[6px] text-xs md:text-sm">
                                 Resposta correta.
