@@ -26,22 +26,22 @@ const main = async () => {
       {
         id: 1,
         title: "Inglês",
-        imageSrc: "/images/image-flag-eua.png",
+        imageSrc: "/images/image-flag-eua-large.png",
       },
       {
         id: 2,
         title: "Espanhol",
-        imageSrc: "/images/image-flag-spanish.png",
+        imageSrc: "/images/image-flag-spain-large.png",
       },
       {
         id: 3,
         title: "Francês",
-        imageSrc: "/images/image-flag-french.png",
+        imageSrc: "/images/image-flag-france-large.png",
       },
       {
         id: 4,
         title: "Italiano",
-        imageSrc: "/images/image-flag-italy.png",
+        imageSrc: "/images/image-flag-italy-large.png",
       },
     ])
 
@@ -523,7 +523,7 @@ const main = async () => {
         order: 5,
         lessonId: 2,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adolescente"',
+        question: 'Qual destas opções corresponde a expressão "o adolescente"',
       },
       {
         id: 6,
@@ -1764,7 +1764,7 @@ const main = async () => {
         order: 41,
         lessonId: 14,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adolescente"',
+        question: 'Qual destas opções corresponde a expressão "o adolescente"',
       },
       {
         id: 42,
@@ -3005,7 +3005,7 @@ const main = async () => {
         order: 77,
         lessonId: 26,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adolescente"',
+        question: 'Qual destas opções corresponde a expressão "o adolescente"',
       },
       {
         id: 78,
@@ -3451,7 +3451,7 @@ const main = async () => {
         imageSrc: "/svg/giraffe.svg",
         audioSrc: "/audios/fra/question-six/la-girafe.mp3",
         correct: false,
-        text: "la-girafe",
+        text: "la girafe",
       },
     ])
 
@@ -3476,7 +3476,7 @@ const main = async () => {
         imageSrc: "/svg/giraffe.svg",
         audioSrc: "/audios/fra/question-six/la-girafe.mp3",
         correct: true,
-        text: "la-girafe",
+        text: "la girafe",
       },
     ])
 
@@ -3501,7 +3501,7 @@ const main = async () => {
         imageSrc: "/svg/giraffe.svg",
         audioSrc: "/audios/fra/question-six/la-girafe.mp3",
         correct: false,
-        text: "la-girafe",
+        text: "la girafe",
       },
     ])
     
@@ -4247,7 +4247,7 @@ const main = async () => {
         order: 113,
         lessonId: 38,
         type: "SELECT",
-        question: 'Qual destas opções corresponde a expressão "a adolescente"',
+        question: 'Qual destas opções corresponde a expressão "o adolescente"',
       },
       {
         id: 114,
@@ -4569,14 +4569,14 @@ const main = async () => {
       },
     ])
 
-    // Options Italian "Gatto"
+    // Options Italian "Il gatto"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 121,
         imageSrc: "/svg/frog.svg",
-        audioSrc: "/audios/ita/question-five/rana.mp3",
+        audioSrc: "/audios/ita/question-five/la-rana.mp3",
         correct: false,
-        text: "rana",
+        text: "la rana",
       },
       {
         challengeId: 121,
@@ -4588,20 +4588,20 @@ const main = async () => {
       {
         challengeId: 121,
         imageSrc: "/svg/cat.svg",
-        audioSrc: "/audios/ita/question-five/gatto.mp3",
+        audioSrc: "/audios/ita/question-five/il-gatto.mp3",
         correct: true,
-        text: "gatto",
+        text: "il gatto",
       },
     ])
 
-    // Options Italian "Rana"
+    // Options Italian "La rana"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 122,
         imageSrc: "/svg/frog.svg",
-        audioSrc: "/audios/ita/question-five/rana.mp3",
+        audioSrc: "/audios/ita/question-five/la-rana.mp3",
         correct: true,
-        text: "rana",
+        text: "la rana",
       },
       {
         challengeId: 122,
@@ -4613,9 +4613,9 @@ const main = async () => {
       {
         challengeId: 122,
         imageSrc: "/svg/cat.svg",
-        audioSrc: "/audios/ita/question-five/gatto.mp3",
+        audioSrc: "/audios/ita/question-five/il-gatto.mp3",
         correct: false,
-        text: "gatto",
+        text: "il gatto",
       },
     ])
 
@@ -4624,9 +4624,9 @@ const main = async () => {
       {
         challengeId: 123,
         imageSrc: "/svg/frog.svg",
-        audioSrc: "/audios/ita/question-five/rana.mp3",
+        audioSrc: "/audios/ita/question-five/la-rana.mp3",
         correct: false,
-        text: "rana",
+        text: "la rana",
       },
       {
         challengeId: 123,
@@ -4638,16 +4638,16 @@ const main = async () => {
       {
         challengeId: 123,
         imageSrc: "/svg/cat.svg",
-        audioSrc: "/audios/ita/question-five/gatto.mp3",
+        audioSrc: "/audios/ita/question-five/il-gatto.mp3",
         correct: false,
-        text: "gatto",
+        text: "il gatto",
       },
     ])
 
 
 
 
-    // Challenges Italian "Pescare"
+    // Challenges Italian "Il pesce"
     await db.insert(schema.challenges).values([
       {
         id: 124,
@@ -4672,21 +4672,21 @@ const main = async () => {
       },
     ])
 
-    // Options Italian "Pescare"
+    // Options Italian "Il pesce"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 124,
         imageSrc: "/svg/lion.svg",
-        audioSrc: "/audios/ita/question-six/leone.mp3",
+        audioSrc: "/audios/ita/question-six/il-leone.mp3",
         correct: false,
-        text: "leone",
+        text: "il leone",
       },
       {
         challengeId: 124,
         imageSrc: "/svg/fish.svg",
-        audioSrc: "/audios/ita/question-six/pescare.mp3",
+        audioSrc: "/audios/ita/question-six/il-pesce.mp3",
         correct: true,
-        text: "pescare",
+        text: "il pesce",
       },
       {
         challengeId: 124,
@@ -4702,16 +4702,16 @@ const main = async () => {
       {
         challengeId: 125,
         imageSrc: "/svg/lion.svg",
-        audioSrc: "/audios/ita/question-six/leone.mp3",
+        audioSrc: "/audios/ita/question-six/il-leone.mp3",
         correct: false,
-        text: "leone",
+        text: "il leone",
       },
       {
         challengeId: 125,
         imageSrc: "/svg/fish.svg",
-        audioSrc: "/audios/ita/question-six/pescare.mp3",
+        audioSrc: "/audios/ita/question-six/il-pesce.mp3",
         correct: false,
-        text: "pescare",
+        text: "il pesce",
       },
       {
         challengeId: 125,
@@ -4722,21 +4722,21 @@ const main = async () => {
       },
     ])
 
-    // Options Italian "Leone"
+    // Options Italian "Il leone"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 126,
         imageSrc: "/svg/lion.svg",
-        audioSrc: "/audios/ita/question-six/leone.mp3",
+        audioSrc: "/audios/ita/question-six/il-leone.mp3",
         correct: true,
-        text: "leone",
+        text: "il leone",
       },
       {
         challengeId: 126,
         imageSrc: "/svg/fish.svg",
-        audioSrc: "/audios/ita/question-six/pescare.mp3",
+        audioSrc: "/audios/ita/question-six/il-pesce.mp3",
         correct: false,
-        text: "pescare",
+        text: "il pesce",
       },
       {
         challengeId: 126,
@@ -4852,7 +4852,7 @@ const main = async () => {
 
 
 
-    // Challenges Italian "Pane"
+    // Challenges Italian "Il pane"
     await db.insert(schema.challenges).values([
       {
         id: 130,
@@ -4877,78 +4877,78 @@ const main = async () => {
       },
     ])
 
-    // Options Italian "Pane"
+    // Options Italian "Il Pane"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 130,
         imageSrc: "/svg/cheese.svg",
-        audioSrc: "/audios/ita/question-eight/formaggio.mp3",
+        audioSrc: "/audios/ita/question-eight/il-formaggio.mp3",
         correct: false,
-        text: "formaggio",
+        text: "il formaggio",
       },
       {
         challengeId: 130,
         imageSrc: "/svg/bread.svg",
-        audioSrc: "/audios/ita/question-eight/pane.mp3",
+        audioSrc: "/audios/ita/question-eight/il-pane.mp3",
         correct: true,
-        text: "pane",
+        text: "il pane",
       },
       {
         challengeId: 130,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/ita/question-eight/la-crepe.mp3",
+        audioSrc: "/audios/ita/question-eight/la-frittella.mp3",
         correct: false,
-        text: "la crêpe",
+        text: "la frittella",
       },
     ])
 
-    // Options Italian "Formaggio"
+    // Options Italian "Il formaggio"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 131,
         imageSrc: "/svg/cheese.svg",
-        audioSrc: "/audios/ita/question-eight/formaggio.mp3",
+        audioSrc: "/audios/ita/question-eight/il-formaggio.mp3",
         correct: true,
-        text: "formaggio",
+        text: "il formaggio",
       },
       {
         challengeId: 131,
         imageSrc: "/svg/bread.svg",
-        audioSrc: "/audios/ita/question-eight/pane.mp3",
+        audioSrc: "/audios/ita/question-eight/il-pane.mp3",
         correct: false,
-        text: "pane",
+        text: "il pane",
       },
       {
         challengeId: 131,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/ita/question-eight/la-crepe.mp3",
+        audioSrc: "/audios/ita/question-eight/la-frittella.mp3",
         correct: false,
-        text: "la crêpe",
+        text: "la frittella",
       },
     ])
 
-    // Options Italian "La crêpe"
+    // Options Italian "La fritella"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 132,
         imageSrc: "/svg/cheese.svg",
-        audioSrc: "/audios/ita/question-eight/formaggio.mp3",
+        audioSrc: "/audios/ita/question-eight/il-formaggio.mp3",
         correct: false,
-        text: "formaggio",
+        text: "il formaggio",
       },
       {
         challengeId: 132,
         imageSrc: "/svg/bread.svg",
-        audioSrc: "/audios/ita/question-eight/pane.mp3",
+        audioSrc: "/audios/ita/question-eight/il-pane.mp3",
         correct: false,
-        text: "pane",
+        text: "il pane",
       },
       {
         challengeId: 132,
         imageSrc: "/svg/pancake.svg",
-        audioSrc: "/audios/ita/question-eight/la-crepe.mp3",
+        audioSrc: "/audios/ita/question-eight/la-frittella.mp3",
         correct: true,
-        text: "la crêpe",
+        text: "la frittella",
       },
     ])
 
@@ -4986,9 +4986,9 @@ const main = async () => {
       {
         challengeId: 133,
         imageSrc: "/svg/cookies.svg",
-        audioSrc: "/audios/ita/question-nine/biscotti.mp3",
+        audioSrc: "/audios/ita/question-nine/i-biscotti.mp3",
         correct: false,
-        text: "biscotti",
+        text: "i biscotti",
       },
       {
         challengeId: 133,
@@ -5006,14 +5006,14 @@ const main = async () => {
       },
     ])
 
-    // Options Italian "Biscotti"
+    // Options Italian "i biscotti"
     await db.insert(schema.challengeOptions).values([
       {
         challengeId: 134,
         imageSrc: "/svg/cookies.svg",
-        audioSrc: "/audios/ita/question-nine/biscotti.mp3",
+        audioSrc: "/audios/ita/question-nine/i-biscotti.mp3",
         correct: true,
-        text: "biscotti",
+        text: "i biscotti",
       },
       {
         challengeId: 134,
@@ -5036,9 +5036,9 @@ const main = async () => {
       {
         challengeId: 135,
         imageSrc: "/svg/cookies.svg",
-        audioSrc: "/audios/ita/question-nine/biscotti.mp3",
+        audioSrc: "/audios/ita/question-nine/i-biscotti.mp3",
         correct: false,
-        text: "biscotti",
+        text: "i biscotti",
       },
       {
         challengeId: 135,

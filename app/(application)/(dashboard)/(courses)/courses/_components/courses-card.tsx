@@ -40,8 +40,8 @@ export const CoursesCard = ({
                     <Image
                         src={imageSrc}
                         alt={title}
-                        width={48}
-                        height={48}
+                        width={90}
+                        height={90}
                         className="drop-shadow-md object-center"
                     />
                 </div>

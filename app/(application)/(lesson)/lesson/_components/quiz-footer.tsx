@@ -72,7 +72,7 @@ export const QuizFooter = ({
                     variant={status === "wrong" ? "danger" : "default"}
                     size={isMobile ? "sm" : "lg"}
                     disabled={disabled}
-                    className="ml-auto"
+                    className="ml-auto md:min-w-48"
                     onClick={onCheck}
                 >
                     {status === "none" && "Verificar"}
