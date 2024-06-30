@@ -64,7 +64,7 @@ export const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => 
                         size="lg"
                         variant={pending || hearts === 5 || points < POINTS_TO_REFILL ? "locked" : "default"}
                         disabled={pending || hearts === 5 || points < POINTS_TO_REFILL}
-                        className="w-40 h-12"
+                        className="w-36 md:w-40 h-12 text-sm md:text-base"
                         onClick={handleRefillHearts}
                     >
                         {hearts === 5 ? "Vidas cheias" : (
@@ -108,7 +108,7 @@ export const Items = ({ hearts, points, hasActiveSubscription }: ItemsProps) => 
                         type="button"
                         size="lg"
                         disabled={pending}
-                        className="w-40 h-12"
+                        className="w-36 md:w-40 h-12 text-sm md:text-base"
                         onClick={handleUpgrade}
                     >
                         {hasActiveSubscription ? "Renovar vidas" : "Comprar vidas"}

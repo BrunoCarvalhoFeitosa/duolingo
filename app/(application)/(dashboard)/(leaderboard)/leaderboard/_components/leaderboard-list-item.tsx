@@ -20,7 +20,7 @@ export const LeaderboardListItem = ({ index, userProgress }: LeaderboardListItem
                     {index + 1}
                 </strong>
             </div>
-            <div className="flex md:flex-1 w-2/4 items-center gap-2 truncate">
+            <div className="flex md:flex-1 w-[70%] md:w-2/4 items-center gap-2 truncate">
                 <div>
                     <Avatar className="w-12 h-12 md:w-14 md:h-14">
                         <AvatarImage

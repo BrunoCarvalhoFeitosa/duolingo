@@ -50,10 +50,10 @@ export const HomeHeroSection = () => {
                 <LanguageSelector />
               </div>
               <div className="mb-10">
-                <h1 className="text-2xl md:text-3xl lg:text-[28px] 2xl:text-[38px] lg:leading-normal font-extrabold">
+                <h1 className="text-[22px] md:text-3xl lg:text-[28px] 2xl:text-[38px] lg:leading-normal font-extrabold">
                   {t("homePage.hero.title")}
                 </h1>
-                <h2 className="text-2xl md:text-3xl lg:text-[28px] 2xl:text-[38px] font-extrabold">
+                <h2 className="text-[22px] md:text-3xl lg:text-[28px] 2xl:text-[38px] font-extrabold">
                   {t("homePage.hero.subtitle")}
                 </h2>
                 <p className="mt-3">{t("homePage.hero.description")}</p>
