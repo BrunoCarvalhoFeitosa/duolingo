@@ -28,17 +28,17 @@ export const HomeHeroSection = () => {
                     <div className="flex gap-2 items-center">
                       <div>
                         <ClerkLoading>
-                            <LoaderIcon className="w-8 h-8 text-muted-foreground animate-spin" />
+                          <LoaderIcon className="w-8 h-8 text-muted-foreground animate-spin" />
                         </ClerkLoading>
                         <ClerkLoaded>
-                            <UserButton
-                                afterSignOutUrl="/"
-                                appearance={{
-                                    elements: {
-                                        avatarBox: "w-12 h-12 lg:w-14 lg:h-14"
-                                    }
-                                }}
-                            />
+                          <UserButton
+                            afterSignOutUrl="/"
+                            appearance={{
+                              elements: {
+                                avatarBox: "w-12 h-12 lg:w-14 lg:h-14",
+                              },
+                            }}
+                          />
                         </ClerkLoaded>
                       </div>
                       <div className="flex flex-col gap-1">
@@ -57,7 +57,7 @@ export const HomeHeroSection = () => {
                 <LanguageSelector />
               </div>
               <div className="mb-10">
-                <h1 className="text-[22px] md:text-3xl lg:text-[28px] 2xl:text-[38px] lg:leading-normal font-extrabold">
+                <h1 className="text-[22px] md:text-3xl lg:text-[26px] 2xl:text-[38px] lg:leading-normal font-extrabold">
                   {t("homePage.hero.title")}
                 </h1>
                 <h2 className="text-[22px] md:text-3xl lg:text-[28px] 2xl:text-[38px] font-extrabold">

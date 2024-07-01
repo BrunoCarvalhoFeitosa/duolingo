@@ -11,7 +11,7 @@ export const HomeDownloadSection = () => {
             <h3 className="mx-auto w-full xl:w-2/4 text-5xl font-bold text-center">
                 {t("homePage.downloadSection.title")}
             </h3>
-            <p className="mt-2 mx-auto lg:w-3/4 xl:w-2/5 text-base text-center">
+            <p className="mt-2 mx-auto lg:w-3/4 xl:w-2/4 text-base text-center">
                 {t("homePage.downloadSection.description")}
             </p>
         </div>

@@ -52,7 +52,7 @@ export const Footer = () => {
                 <DuolingoFooterCharacterImageSvg />
             </div>
             <div className="-mt-1 py-14 xl:pt-8 w-full bg-lime-500">
-                <div className="mx-auto w-3/4 xl:w-[80%] grid grid-cols-1 xl:grid-cols-5 gap-24 place-items-center xl:place-items-start text-center xl:text-left">
+                <div className="mx-auto w-3/4 xl:w-[80%] grid grid-cols-1 xl:grid-cols-5 gap-24 lg:gap-12 2xl:gap-24 place-items-center xl:place-items-start text-center xl:text-left">
                     <div>
                         <h5 className="mb-4 text-lg font-extrabold">
                             {t("footer.columns.institutional.title")}
