@@ -10,8 +10,8 @@ import { Quests } from "@/app/_components/common/application/globals/quests"
 
 const LeaderBoardPage = async () => {
     const userProgressData = getUserProgress()
-    const userSubscriptionData = await getUserSubscription()
-    const leaderboardData = await getTopTenUsers()
+    const userSubscriptionData = getUserSubscription()
+    const leaderboardData = getTopTenUsers()
 
     const [userProgress, userSubscription, leaderboard] = await Promise.all([
         userProgressData,
@@ -45,7 +45,7 @@ const LeaderBoardPage = async () => {
                     activeCourse={userProgress.activeCourse}
                     hearts={userProgress.hearts}
                     points={userProgress.points}
-                    hasActiveSubscription={false}
+                    hasActiveSubscription={isPro}
                 />
                 {!isPro && <Promo />}
                 <Quests points={userProgress.points} />

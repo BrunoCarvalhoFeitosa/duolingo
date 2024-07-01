@@ -2,8 +2,13 @@ import { getCourses, getUserProgress } from "@/db/queries"
 import { CoursesList } from "@/app/(application)/(dashboard)/(courses)/courses/_components/courses-list"
 
 const CoursesPage = async () => {
-    const courses = await getCourses()
-    const userProgress = await getUserProgress()
+    const coursesData = getCourses()
+    const userProgressData = getUserProgress()
+
+    const [courses, userProgress] = await Promise.all([
+        coursesData,
+        userProgressData,
+    ])
 
     return (
         <div className="px-3 mx-auto max-w-[1240px] h-full">

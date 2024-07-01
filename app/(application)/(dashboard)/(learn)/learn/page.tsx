@@ -10,11 +10,11 @@ import { Promo } from "@/app/_components/common/application/globals/promo"
 import { Quests } from "@/app/_components/common/application/globals/quests"
 
 const LearnPage = async () => {
-    const userProgressData = await getUserProgress()
-    const unitsData = await getUnits()
-    const courseProgressData = await getCourseProgress()
-    const lessonPercentageData = await getLessonPercentage()
-    const userSubscriptionData = await getUserSubscription()
+    const userProgressData = getUserProgress()
+    const unitsData = getUnits()
+    const courseProgressData = getCourseProgress()
+    const lessonPercentageData = getLessonPercentage()
+    const userSubscriptionData = getUserSubscription()
 
     const [userProgress, units, courseProgress, lessonPercentage, userSubscription] = await Promise.all([
         userProgressData,

@@ -43,7 +43,7 @@ const QuestsPage = async () => {
                     activeCourse={userProgress.activeCourse}
                     hearts={userProgress.hearts}
                     points={userProgress.points}
-                    hasActiveSubscription={false}
+                    hasActiveSubscription={isPro}
                 />
                 {!isPro && <Promo />}
                 <Quests points={userProgress.points} />
