@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next"
 import { DuolingoSadImageSvg } from "@/public/svgs/duolingo-sad-image-svg"
 
 export const HomeTiredSection = () => {
-    const { t } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <section className="pt-10 md:pt-28 px-5 w-full bg-white">
