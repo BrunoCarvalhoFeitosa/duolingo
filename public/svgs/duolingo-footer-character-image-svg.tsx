@@ -2,7 +2,7 @@
 
 export const DuolingoFooterCharacterImageSvg = () => {
   return (
-    <div className="absolute -top-3 md:top-0 animate-bounce-duolingo-footer">
+    <div className="absolute top-0 animate-bounce-duolingo-footer">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1920 1060"
