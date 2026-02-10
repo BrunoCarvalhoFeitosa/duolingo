@@ -64,6 +64,7 @@
     "signInPage": {
         "form": {
             "inputEmail": "Eメール",
+            "inputPassword": "パスワード",
             "submit": "アカウントにログインして言語を学びましょう",
             "signUpText": "登録する"
         },

@@ -64,6 +64,7 @@
     "signInPage": {
         "form": {
             "inputEmail": "電子郵件",
+            "inputPassword": "密碼",
             "submit": "登入您的帳戶並學習語言",
             "signUpText": "登記"
         },

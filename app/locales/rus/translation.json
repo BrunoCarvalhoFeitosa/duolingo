@@ -64,6 +64,7 @@
     "signInPage": {
         "form": {
             "inputEmail": "Электронная почта",
+            "inputPassword": "пароль",
             "submit": "Войдите в свою учетную запись и выучите язык",
             "signUpText": "регистр"
         },

@@ -1,13 +1,21 @@
 "use client"
+import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import * as Clerk from "@clerk/elements/common"
 import * as SignIn from "@clerk/elements/sign-in"
-import { useTranslation } from "react-i18next"
 import Link from "next/link"
+import { Button } from "@/app/_components/ui/button"
 import { GoogleIconSvg } from "@/public/svgs/google-icon-svg"
 import { MicrosoftIconSvg } from "@/public/svgs/microsoft-icon-svg"
+import { EyeIcon, EyeOffIcon } from "lucide-react"
 
 export const SignInForm = () => {
+    const [showPassword, setShowPassword] = useState<boolean>(false)
     const { t } = useTranslation()
+
+    const showOrHidePassword = () => {
+        setShowPassword(!showPassword)
+    }
 
     return (
         <div className="min-h-96">
@@ -19,16 +27,39 @@ export const SignInForm = () => {
                     <Clerk.GlobalError className="block text-sm text-red-600" />
                     <Clerk.Field name="identifier">
                         <Clerk.Label className="sr-only">
-                            {t("signInPage.form.inputEmail")}
+                        {t("signInPage.form.inputEmail")}
                         </Clerk.Label>
                         <Clerk.Input
                             required
                             type="email"
                             placeholder={t("signInPage.form.inputEmail")}
-                            autoComplete="off"
+                            autoComplete="email"
                             className="w-full border-b border-neutral-100 bg-white p-2 text-sm/6 md:text-base text-neutral-950 outline-none placeholder:text-neutral-400 hover:border-neutral-200 focus:border-neutral-300 data-[invalid]:placeholder:text-red-600 data-[invalid]:border-red-600 data-[invalid]:text-red-600"
                         />
                         <Clerk.FieldError className="mt-2 block text-xs text-red-600" />
+                    </Clerk.Field>
+                    <Clerk.Field name="password">
+                        <Clerk.Label className="sr-only">
+                        {t("signInPage.form.inputPassword")}
+                        </Clerk.Label>
+                        <div className="relative">
+                            <Clerk.Input
+                                required
+                                type={showPassword ? "text" : "password"}
+                                placeholder={t("signInPage.form.inputPassword")}
+                                autoComplete="current-password"
+                                className="w-full border-b border-neutral-100 bg-white p-2 text-sm/6 md:text-base text-neutral-950 outline-none placeholder:text-neutral-400 hover:border-neutral-200 focus:border-neutral-300 data-[invalid]:placeholder:text-red-600 data-[invalid]:border-red-600 data-[invalid]:text-red-600"
+                            />
+                            <Button
+                                type="button"
+                                size="sm"
+                                className="absolute top-2/4 -translate-y-2/4 right-0 h-8"
+                                onClick={showOrHidePassword}
+                            >
+                                {showPassword ? <EyeOffIcon /> : <EyeIcon />}
+                            </Button>
+                        </div>
+                         <Clerk.FieldError className="mt-2 block text-xs text-red-600" />
                     </Clerk.Field>
                     <SignIn.Action
                         submit
@@ -43,16 +74,14 @@ export const SignInForm = () => {
                         <div className="space-y-2">
                             <Clerk.Connection
                                 name="google"
-                                className="w-full h-14 border-b-4 border-gray-300 flex items-center justify-center gap-x-3 rounded-md bg-gradient-to-b from-white to-neutral-50 px-2 py-1.5 text-sm md:text-base font-medium text-neutral-950 shadow outline-none ring-1 ring-black/5 hover:to-neutral-100 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 active:text-neutral-950/60"
+                                className="w-full h-14 border-b-4 border-gray-300 flex items-center justify-center gap-x-3 rounded-md bg-gradient-to-b from-white to-neutral-50 px-2 py-1.5 text-sm md:text-base font-medium text-neutral-950 shadow outline-none ring-1 ring-black/5 hover:to-neutral-100"
                             >
                                 <GoogleIconSvg width="20" height="20" />
                                 {t("signInPage.platforms.googleButton")}
                             </Clerk.Connection>
-                        </div>
-                        <div className="mt-2 space-y-2">
                             <Clerk.Connection
                                 name="microsoft"
-                                className="w-full h-14 border-b-4 border-gray-300 flex items-center justify-center gap-x-3 rounded-md bg-gradient-to-b from-white to-neutral-50 px-2 py-1.5 text-sm md:text-base font-medium text-neutral-950 shadow outline-none ring-1 ring-black/5 hover:to-neutral-100 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 active:text-neutral-950/60"
+                                className="w-full h-14 border-b-4 border-gray-300 flex items-center justify-center gap-x-3 rounded-md bg-gradient-to-b from-white to-neutral-50 px-2 py-1.5 text-sm md:text-base font-medium text-neutral-950 shadow outline-none ring-1 ring-black/5 hover:to-neutral-100"
                             >
                                 <MicrosoftIconSvg width="20" height="20" />
                                 {t("signInPage.platforms.microsoftButton")}
@@ -63,14 +92,12 @@ export const SignInForm = () => {
                         <div className="text-sm md:text-base">
                             {t("signInPage.platforms.haveNotAccount")}
                         </div>
-                        <div>
-                            <Link
-                                href="/sign-up"
-                                className="rounded px-1 py-0.5 text-sm md:text-base text-neutral-700 outline-none underline"
-                            >
-                                {t("signInPage.form.signUpText")}
-                            </Link>
-                        </div>
+                        <Link
+                            href="/sign-up"
+                            className="rounded px-1 py-0.5 text-sm md:text-base text-neutral-700 outline-none underline"
+                        >
+                            {t("signInPage.form.signUpText")}
+                        </Link>
                     </div>
                 </SignIn.Step>
                 <SignIn.Step
@@ -90,9 +117,10 @@ export const SignInForm = () => {
                             </Clerk.Label>
                             <Clerk.Input
                                 required
-                                type="otp"
+                                type="text"
                                 placeholder={t("authPage.otpVerification.input")}
-                                autoComplete="off"
+                                inputMode="numeric"
+                                autoComplete="one-time-code"
                                 className="w-full border-b border-neutral-100 bg-white px-0 text-sm/6 md:text-base text-neutral-950 outline-none placeholder:text-neutral-400 hover:border-neutral-200 focus:border-neutral-300 data-[invalid]:placeholder:text-red-600 data-[invalid]:border-red-600 data-[invalid]:text-red-600"
                             />
                             <Clerk.FieldError className="mt-2 block text-xs text-red-600" />
@@ -100,22 +128,20 @@ export const SignInForm = () => {
                         <SignIn.Action
                             submit
                             className="w-full inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-lime-600 text-primary-foreground hover:opacity-90 border-b-4 border-lime-700 h-14 md:h-16 rounded-md px-8 text-xs md:text-base"
-                        >
-                            {t("authPage.otpVerification.button")}
+                            >
+                                {t("authPage.otpVerification.button")}
                         </SignIn.Action>
                     </SignIn.Strategy>
                     <div className="flex justify-center items-center gap-1">
                         <div className="text-sm md:text-base">
                             {t("signInPage.platforms.haveNotAccount")}
                         </div>
-                        <div>
-                            <Link
-                                href="/sign-up"
-                                className="rounded px-1 py-0.5 text-sm md:text-base text-neutral-700 outline-none underline"
-                            >
-                                {t("signInPage.form.signUpText")}
-                            </Link>
-                        </div>
+                        <Link
+                            href="/sign-up"
+                            className="rounded px-1 py-0.5 text-sm md:text-base text-neutral-700 outline-none underline"
+                        >
+                            {t("signInPage.form.signUpText")}
+                        </Link>
                     </div>
                 </SignIn.Step>
             </SignIn.Root>

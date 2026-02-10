@@ -66,7 +66,7 @@ export const SignUpForm = () => {
                             />
                             <Clerk.FieldError className="block text-sm text-red-400" />
                         </Clerk.Field>
-                        <Clerk.Field name="password" className="relative space-y-2">
+                        <Clerk.Field name="password" className="relative">
                             <Clerk.Input
                                 required
                                 type={showPassword ? "text" : "password"}
@@ -75,15 +75,14 @@ export const SignUpForm = () => {
                             />
                             <Button
                                 type="button"
-                                variant="ghost"
                                 size="sm"
-                                className="p-0 absolute -top-3 right-0"
+                                className="absolute top-2/4 -translate-y-2/4 right-0 h-8"
                                 onClick={handleShowOrHidePassword}
                             >
                                 {showPassword ? (
-                                    <EyeOffIcon size={24} className="text-lime-600" />
+                                    <EyeOffIcon />
                                 ) : (
-                                    <EyeIcon size={24} className="text-lime-600" />
+                                    <EyeIcon />
                                 )}
                             </Button>
                             <Clerk.FieldError className="block text-sm text-red-400" />

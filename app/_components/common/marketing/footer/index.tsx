@@ -34,7 +34,7 @@ export const Footer = () => {
                                 {t("footer.button")}
                             </Button>
                     ) : (
-                        <Link href="/register" className="mx-auto w-3/4">
+                        <Link href="/sign-up" className="mx-auto w-3/4">
                             <Button
                                 type="button"
                                 variant="default"

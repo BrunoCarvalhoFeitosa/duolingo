@@ -64,6 +64,7 @@
     "signInPage": {
         "form": {
             "inputEmail": "E-mail",
+            "inputPassword": "Password",
             "submit": "Accedi al tuo account e impara una lingua",
             "signUpText": "Registrati"
         },
