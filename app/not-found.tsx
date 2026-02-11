@@ -7,13 +7,13 @@ const NotFoundPage = () => {
     <section className="relative p-5 w-full h-[100dvh] bg-lime-500">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="mx-auto w-3/4 flex justify-center items-center">
-          <div className="mr-3 text-[80px] xl:text-[180px] leading-none font-extrabold text-lime-700">
+          <div className="mr-3 text-[80px] xl:text-[180px] 2xl:text-[220px] leading-none font-extrabold text-lime-700">
             4
           </div>
           <div className="animate-[bounce_3s_infinite]">
             <DuolingoMouthImageSvg width="180" height="180" />
           </div>
-          <div className="text-[80px] xl:text-[180px] leading-none font-extrabold text-lime-700">
+          <div className="text-[80px] xl:text-[180px] 2xl:text-[220px] leading-none font-extrabold text-lime-700">
             4
           </div>
         </div>
@@ -31,7 +31,7 @@ const NotFoundPage = () => {
               type="button"
               variant="default"
               size="lg"
-              className="pl-4 w-full h-10"
+              className="w-full h-10"
             >
               Voltar e aprender um idioma
             </Button>
